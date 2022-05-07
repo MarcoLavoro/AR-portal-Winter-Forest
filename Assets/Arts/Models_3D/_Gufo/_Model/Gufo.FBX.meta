@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 6ccb83d45ab3ec24799f94dc3d99f5d9
+timeCreated: 1517430200
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: snowyowl_Beak-nub_bone
+    100004: Snowyowl_Beak_bone
+    100006: Snowyowl_Beak_ctrl
+    100008: snowyowl_COM_ctrl
+    100010: snowyowl_feathers_new_mesh
+    100012: snowyowl_FeatherTail-nub_bone
+    100014: snowyowl_FeatherTail_bone
+    100016: snowyowl_FeatherTail_ctrl
+    100018: snowyowl_Head-nub_bone
+    100020: snowyowl_Head_bone
+    100022: snowyowl_Head_ctrl
+    100024: snowyowl_Hip_ctrl
+    100026: Snowyowl_Jaw_bone
+    100028: Snowyowl_Jaw_ctrl
+    100030: snowyowl_l_Ankle_ctrl
+    100032: snowyowl_l_Aula-nub_bone
+    100034: snowyowl_l_Aula_bone
+    100036: snowyowl_l_Aula_ctrl
+    100038: snowyowl_l_Clav_bone
+    100040: snowyowl_l_Clav_ctrl
+    100042: snowyowl_l_DigitI-nub_bone
+    100044: snowyowl_l_DigitI_bone
+    100046: snowyowl_l_DigitI_ctrl
+    100048: snowyowl_l_DigitII_1_bone
+    100050: snowyowl_l_DigitII_2-nub_bone
+    100052: snowyowl_l_DigitII_2_bone
+    100054: snowyowl_l_DigitII_ctrl
+    100056: snowyowl_l_DigitIII_1_bone
+    100058: snowyowl_l_DigitIII_2_bone
+    100060: snowyowl_l_DigitIII_3-nub_bone
+    100062: snowyowl_l_DigitIII_3_bone
+    100064: snowyowl_l_DigitIII_ctrl
+    100066: snowyowl_l_DigitIV_1_bone
+    100068: snowyowl_l_DigitIV_2_bone
+    100070: snowyowl_l_DigitIV_3_bone
+    100072: snowyowl_l_DigitIV_4-nub_bone
+    100074: snowyowl_l_DigitIV_4_bone
+    100076: snowyowl_l_DigitIV_ctrl
+    100078: snowyowl_l_Eye-nub_bone
+    100080: snowyowl_l_Eye_bone
+    100082: snowyowl_l_Eye_ctrl
+    100084: snowyowl_l_Eyelidlower-nub_bone
+    100086: snowyowl_l_Eyelidlower_bone
+    100088: snowyowl_l_Eyelidlower_ctrl
+    100090: snowyowl_l_Eyelidupper-nub_bone
+    100092: snowyowl_l_Eyelidupper_bone
+    100094: snowyowl_l_Eyelidupper_ctrl
+    100096: snowyowl_l_FeatherTail_3_bone
+    100098: snowyowl_l_FeatherTailTail_3-nub_bone
+    100100: snowyowl_l_FeatherTailTail_3_ctrl
+    100102: snowyowl_l_Femur_bone
+    100104: snowyowl_l_Foot-nub
+    100106: snowyowl_l_Foot_bone
+    100108: snowyowl_l_Foot_ctrl
+    100110: snowyowl_l_Heel_hlp
+    100112: snowyowl_l_heel_IKGoal
+    100114: snowyowl_l_HeelPeel_hlp
+    100116: snowyowl_l_Humerus_bone
+    100118: snowyowl_l_Humerus_ctrl
+    100120: snowyowl_l_Primary_1-nub_bone
+    100122: snowyowl_l_Primary_1_bone
+    100124: snowyowl_l_Primary_1_ctrl
+    100126: snowyowl_l_Primary_2-nub_bone
+    100128: snowyowl_l_Primary_2_bone
+    100130: snowyowl_l_Primary_2_ctrl
+    100132: snowyowl_l_Secondary_1-nub_bone
+    100134: snowyowl_l_Secondary_1_bone
+    100136: snowyowl_l_Secondary_1_ctrl
+    100138: snowyowl_l_Secondary_2-nub_bone
+    100140: snowyowl_l_Secondary_2_bone
+    100142: snowyowl_l_Secondary_2_ctrl
+    100144: snowyowl_l_Tarso_bone
+    100146: snowyowl_l_Tibia_bone
+    100148: snowyowl_l_toe_IKGoal
+    100150: snowyowl_l_ToeLift_hlp
+    100152: snowyowl_l_ToeTap_hlp0
+    100154: snowyowl_l_Ulna_bone
+    100156: snowyowl_l_Ulna_ctrl
+    100158: snowyowl_Main_ctrl
+    100160: Snowyowl_Mandible-nub_bone
+    100162: Snowyowl_Mandible_bone
+    100164: Snowyowl_Mandible_ctrl
+    100166: snowyowl_mesh
+    100168: snowyowl_Neck_bone
+    100170: snowyowl_NeckBase_ctrl
+    100172: snowyowl_Pelvis_bone
+    100174: snowyowl_r_Ankle_ctrl
+    100176: snowyowl_r_Aula-nub_bone
+    100178: snowyowl_r_Aula_bone
+    100180: snowyowl_r_Aula_ctrl
+    100182: snowyowl_r_Clav_bone
+    100184: snowyowl_r_Clav_ctrl
+    100186: snowyowl_r_DigitI-nub_bone
+    100188: snowyowl_r_DigitI_bone
+    100190: snowyowl_r_DigitI_ctrl
+    100192: snowyowl_r_DigitII_1_bone
+    100194: snowyowl_r_DigitII_2-nub_bone
+    100196: snowyowl_r_DigitII_2_bone
+    100198: snowyowl_r_DigitII_ctrl
+    100200: snowyowl_r_DigitIII_1_bone
+    100202: snowyowl_r_DigitIII_2_bone
+    100204: snowyowl_r_DigitIII_3-nub_bone
+    100206: snowyowl_r_DigitIII_3_bone
+    100208: snowyowl_r_DigitIII_ctrl
+    100210: snowyowl_r_DigitIV_1_bone
+    100212: snowyowl_r_DigitIV_2_bone
+    100214: snowyowl_r_DigitIV_3_bone
+    100216: snowyowl_r_DigitIV_4-nub_bone
+    100218: snowyowl_r_DigitIV_4_bone
+    100220: snowyowl_r_DigitIV_ctrl
+    100222: snowyowl_r_Eye-nub_bone
+    100224: snowyowl_r_Eye_bone
+    100226: snowyowl_r_Eye_ctrl
+    100228: snowyowl_r_Eyelidlower-nub_bone
+    100230: snowyowl_r_Eyelidlower_bone
+    100232: snowyowl_r_Eyelidlower_ctrl
+    100234: snowyowl_r_Eyelidupper-nub_bone
+    100236: snowyowl_r_Eyelidupper_bone
+    100238: snowyowl_r_Eyelidupper_ctrl
+    100240: snowyowl_r_FeatherTail_bone
+    100242: snowyowl_r_FeatherTailTail_3-nub_bone
+    100244: snowyowl_r_FeatherTailTail_3_ctrl
+    100246: snowyowl_r_Femur_bone
+    100248: snowyowl_r_Foot-nub
+    100250: snowyowl_r_Foot_bone
+    100252: snowyowl_r_Foot_ctrl
+    100254: snowyowl_r_Heel_hlp
+    100256: snowyowl_r_heel_IKGoal
+    100258: snowyowl_r_HeelPeel_hlp
+    100260: snowyowl_r_Humerus_bone
+    100262: snowyowl_r_Humerus_ctrl
+    100264: snowyowl_r_Primary_1-nub_bone
+    100266: snowyowl_r_Primary_1_bone
+    100268: snowyowl_r_Primary_1_ctrl
+    100270: snowyowl_r_Primary_2-nub_bone
+    100272: snowyowl_r_Primary_2_bone
+    100274: snowyowl_r_Primary_2_ctrl
+    100276: snowyowl_r_Secondary_1-nub_bone
+    100278: snowyowl_r_Secondary_1_bone
+    100280: snowyowl_r_Secondary_1_ctrl
+    100282: snowyowl_r_Secondary_2-nub_bone
+    100284: snowyowl_r_Secondary_2_bone
+    100286: snowyowl_r_Secondary_2_ctrl
+    100288: snowyowl_r_Tarso_bone
+    100290: snowyowl_r_Tibia_bone
+    100292: snowyowl_r_toe_IKGoal
+    100294: snowyowl_r_ToeLift_hlp
+    100296: snowyowl_r_ToeTap_hlp
+    100298: snowyowl_r_Ulna_bone
+    100300: snowyowl_r_Ulna_ctrl
+    100302: snowyowl_Spine1_bone
+    100304: snowyowl_Spine2_bone
+    100306: snowyowl_Spine3_bone
+    100308: snowyowl_SpineBase_ctrl
+    100310: snowyowl_Tail-nub_bone
+    100312: snowyowl_Tail_bone
+    100314: snowyowl_Tail_ctrl
+    400000: //RootNode
+    400002: snowyowl_Beak-nub_bone
+    400004: Snowyowl_Beak_bone
+    400006: Snowyowl_Beak_ctrl
+    400008: snowyowl_COM_ctrl
+    400010: snowyowl_feathers_new_mesh
+    400012: snowyowl_FeatherTail-nub_bone
+    400014: snowyowl_FeatherTail_bone
+    400016: snowyowl_FeatherTail_ctrl
+    400018: snowyowl_Head-nub_bone
+    400020: snowyowl_Head_bone
+    400022: snowyowl_Head_ctrl
+    400024: snowyowl_Hip_ctrl
+    400026: Snowyowl_Jaw_bone
+    400028: Snowyowl_Jaw_ctrl
+    400030: snowyowl_l_Ankle_ctrl
+    400032: snowyowl_l_Aula-nub_bone
+    400034: snowyowl_l_Aula_bone
+    400036: snowyowl_l_Aula_ctrl
+    400038: snowyowl_l_Clav_bone
+    400040: snowyowl_l_Clav_ctrl
+    400042: snowyowl_l_DigitI-nub_bone
+    400044: snowyowl_l_DigitI_bone
+    400046: snowyowl_l_DigitI_ctrl
+    400048: snowyowl_l_DigitII_1_bone
+    400050: snowyowl_l_DigitII_2-nub_bone
+    400052: snowyowl_l_DigitII_2_bone
+    400054: snowyowl_l_DigitII_ctrl
+    400056: snowyowl_l_DigitIII_1_bone
+    400058: snowyowl_l_DigitIII_2_bone
+    400060: snowyowl_l_DigitIII_3-nub_bone
+    400062: snowyowl_l_DigitIII_3_bone
+    400064: snowyowl_l_DigitIII_ctrl
+    400066: snowyowl_l_DigitIV_1_bone
+    400068: snowyowl_l_DigitIV_2_bone
+    400070: snowyowl_l_DigitIV_3_bone
+    400072: snowyowl_l_DigitIV_4-nub_bone
+    400074: snowyowl_l_DigitIV_4_bone
+    400076: snowyowl_l_DigitIV_ctrl
+    400078: snowyowl_l_Eye-nub_bone
+    400080: snowyowl_l_Eye_bone
+    400082: snowyowl_l_Eye_ctrl
+    400084: snowyowl_l_Eyelidlower-nub_bone
+    400086: snowyowl_l_Eyelidlower_bone
+    400088: snowyowl_l_Eyelidlower_ctrl
+    400090: snowyowl_l_Eyelidupper-nub_bone
+    400092: snowyowl_l_Eyelidupper_bone
+    400094: snowyowl_l_Eyelidupper_ctrl
+    400096: snowyowl_l_FeatherTail_3_bone
+    400098: snowyowl_l_FeatherTailTail_3-nub_bone
+    400100: snowyowl_l_FeatherTailTail_3_ctrl
+    400102: snowyowl_l_Femur_bone
+    400104: snowyowl_l_Foot-nub
+    400106: snowyowl_l_Foot_bone
+    400108: snowyowl_l_Foot_ctrl
+    400110: snowyowl_l_Heel_hlp
+    400112: snowyowl_l_heel_IKGoal
+    400114: snowyowl_l_HeelPeel_hlp
+    400116: snowyowl_l_Humerus_bone
+    400118: snowyowl_l_Humerus_ctrl
+    400120: snowyowl_l_Primary_1-nub_bone
+    400122: snowyowl_l_Primary_1_bone
+    400124: snowyowl_l_Primary_1_ctrl
+    400126: snowyowl_l_Primary_2-nub_bone
+    400128: snowyowl_l_Primary_2_bone
+    400130: snowyowl_l_Primary_2_ctrl
+    400132: snowyowl_l_Secondary_1-nub_bone
+    400134: snowyowl_l_Secondary_1_bone
+    400136: snowyowl_l_Secondary_1_ctrl
+    400138: snowyowl_l_Secondary_2-nub_bone
+    400140: snowyowl_l_Secondary_2_bone
+    400142: snowyowl_l_Secondary_2_ctrl
+    400144: snowyowl_l_Tarso_bone
+    400146: snowyowl_l_Tibia_bone
+    400148: snowyowl_l_toe_IKGoal
+    400150: snowyowl_l_ToeLift_hlp
+    400152: snowyowl_l_ToeTap_hlp0
+    400154: snowyowl_l_Ulna_bone
+    400156: snowyowl_l_Ulna_ctrl
+    400158: snowyowl_Main_ctrl
+    400160: Snowyowl_Mandible-nub_bone
+    400162: Snowyowl_Mandible_bone
+    400164: Snowyowl_Mandible_ctrl
+    400166: snowyowl_mesh
+    400168: snowyowl_Neck_bone
+    400170: snowyowl_NeckBase_ctrl
+    400172: snowyowl_Pelvis_bone
+    400174: snowyowl_r_Ankle_ctrl
+    400176: snowyowl_r_Aula-nub_bone
+    400178: snowyowl_r_Aula_bone
+    400180: snowyowl_r_Aula_ctrl
+    400182: snowyowl_r_Clav_bone
+    400184: snowyowl_r_Clav_ctrl
+    400186: snowyowl_r_DigitI-nub_bone
+    400188: snowyowl_r_DigitI_bone
+    400190: snowyowl_r_DigitI_ctrl
+    400192: snowyowl_r_DigitII_1_bone
+    400194: snowyowl_r_DigitII_2-nub_bone
+    400196: snowyowl_r_DigitII_2_bone
+    400198: snowyowl_r_DigitII_ctrl
+    400200: snowyowl_r_DigitIII_1_bone
+    400202: snowyowl_r_DigitIII_2_bone
+    400204: snowyowl_r_DigitIII_3-nub_bone
+    400206: snowyowl_r_DigitIII_3_bone
+    400208: snowyowl_r_DigitIII_ctrl
+    400210: snowyowl_r_DigitIV_1_bone
+    400212: snowyowl_r_DigitIV_2_bone
+    400214: snowyowl_r_DigitIV_3_bone
+    400216: snowyowl_r_DigitIV_4-nub_bone
+    400218: snowyowl_r_DigitIV_4_bone
+    400220: snowyowl_r_DigitIV_ctrl
+    400222: snowyowl_r_Eye-nub_bone
+    400224: snowyowl_r_Eye_bone
+    400226: snowyowl_r_Eye_ctrl
+    400228: snowyowl_r_Eyelidlower-nub_bone
+    400230: snowyowl_r_Eyelidlower_bone
+    400232: snowyowl_r_Eyelidlower_ctrl
+    400234: snowyowl_r_Eyelidupper-nub_bone
+    400236: snowyowl_r_Eyelidupper_bone
+    400238: snowyowl_r_Eyelidupper_ctrl
+    400240: snowyowl_r_FeatherTail_bone
+    400242: snowyowl_r_FeatherTailTail_3-nub_bone
+    400244: snowyowl_r_FeatherTailTail_3_ctrl
+    400246: snowyowl_r_Femur_bone
+    400248: snowyowl_r_Foot-nub
+    400250: snowyowl_r_Foot_bone
+    400252: snowyowl_r_Foot_ctrl
+    400254: snowyowl_r_Heel_hlp
+    400256: snowyowl_r_heel_IKGoal
+    400258: snowyowl_r_HeelPeel_hlp
+    400260: snowyowl_r_Humerus_bone
+    400262: snowyowl_r_Humerus_ctrl
+    400264: snowyowl_r_Primary_1-nub_bone
+    400266: snowyowl_r_Primary_1_bone
+    400268: snowyowl_r_Primary_1_ctrl
+    400270: snowyowl_r_Primary_2-nub_bone
+    400272: snowyowl_r_Primary_2_bone
+    400274: snowyowl_r_Primary_2_ctrl
+    400276: snowyowl_r_Secondary_1-nub_bone
+    400278: snowyowl_r_Secondary_1_bone
+    400280: snowyowl_r_Secondary_1_ctrl
+    400282: snowyowl_r_Secondary_2-nub_bone
+    400284: snowyowl_r_Secondary_2_bone
+    400286: snowyowl_r_Secondary_2_ctrl
+    400288: snowyowl_r_Tarso_bone
+    400290: snowyowl_r_Tibia_bone
+    400292: snowyowl_r_toe_IKGoal
+    400294: snowyowl_r_ToeLift_hlp
+    400296: snowyowl_r_ToeTap_hlp
+    400298: snowyowl_r_Ulna_bone
+    400300: snowyowl_r_Ulna_ctrl
+    400302: snowyowl_Spine1_bone
+    400304: snowyowl_Spine2_bone
+    400306: snowyowl_Spine3_bone
+    400308: snowyowl_SpineBase_ctrl
+    400310: snowyowl_Tail-nub_bone
+    400312: snowyowl_Tail_bone
+    400314: snowyowl_Tail_ctrl
+    2300000: snowyowl_l_Ankle_ctrl
+    2300002: snowyowl_l_DigitI_ctrl
+    2300004: snowyowl_l_DigitII_ctrl
+    2300006: snowyowl_l_DigitIII_ctrl
+    2300008: snowyowl_l_DigitIV_ctrl
+    2300010: snowyowl_l_Foot_ctrl
+    2300012: snowyowl_r_Ankle_ctrl
+    2300014: snowyowl_r_DigitI_ctrl
+    2300016: snowyowl_r_DigitII_ctrl
+    2300018: snowyowl_r_DigitIII_ctrl
+    2300020: snowyowl_r_DigitIV_ctrl
+    2300022: snowyowl_r_Foot_ctrl
+    3300000: snowyowl_l_Ankle_ctrl
+    3300002: snowyowl_l_DigitI_ctrl
+    3300004: snowyowl_l_DigitII_ctrl
+    3300006: snowyowl_l_DigitIII_ctrl
+    3300008: snowyowl_l_DigitIV_ctrl
+    3300010: snowyowl_l_Foot_ctrl
+    3300012: snowyowl_r_Ankle_ctrl
+    3300014: snowyowl_r_DigitI_ctrl
+    3300016: snowyowl_r_DigitII_ctrl
+    3300018: snowyowl_r_DigitIII_ctrl
+    3300020: snowyowl_r_DigitIV_ctrl
+    3300022: snowyowl_r_Foot_ctrl
+    4300000: snowyowl_mesh
+    4300002: snowyowl_feathers_new_mesh
+    4300004: snowyowl_l_Ankle_ctrl
+    4300006: snowyowl_l_DigitIV_ctrl
+    4300008: snowyowl_l_DigitIII_ctrl
+    4300010: snowyowl_l_DigitII_ctrl
+    4300012: snowyowl_l_DigitI_ctrl
+    4300014: snowyowl_r_Ankle_ctrl
+    4300016: snowyowl_r_DigitI_ctrl
+    4300018: snowyowl_r_DigitII_ctrl
+    4300020: snowyowl_r_DigitIII_ctrl
+    4300022: snowyowl_r_DigitIV_ctrl
+    4300024: snowyowl_l_Foot_ctrl
+    4300026: snowyowl_r_Foot_ctrl
+    7400000: idle
+    9500000: //RootNode
+    13700000: snowyowl_feathers_new_mesh
+    13700002: snowyowl_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 136
+      lastFrame: 376
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snowyowl_feathers_new_mesh
+        weight: 1
+      - path: snowyowl_Head_ctrl
+        weight: 1
+      - path: snowyowl_Hip_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Ankle_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Ankle_ctrl/snowyowl_l_DigitI_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Ankle_ctrl/snowyowl_l_DigitII_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Ankle_ctrl/snowyowl_l_DigitIII_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Ankle_ctrl/snowyowl_l_DigitIV_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitI_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitI_bone/snowyowl_l_DigitI-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitII_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitII_1_bone/snowyowl_l_DigitII_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitII_1_bone/snowyowl_l_DigitII_2_bone/snowyowl_l_DigitII_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIII_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIII_1_bone/snowyowl_l_DigitIII_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIII_1_bone/snowyowl_l_DigitIII_2_bone/snowyowl_l_DigitIII_3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIII_1_bone/snowyowl_l_DigitIII_2_bone/snowyowl_l_DigitIII_3_bone/snowyowl_l_DigitIII_3-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIV_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIV_1_bone/snowyowl_l_DigitIV_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIV_1_bone/snowyowl_l_DigitIV_2_bone/snowyowl_l_DigitIV_3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIV_1_bone/snowyowl_l_DigitIV_2_bone/snowyowl_l_DigitIV_3_bone/snowyowl_l_DigitIV_4_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_DigitIV_1_bone/snowyowl_l_DigitIV_2_bone/snowyowl_l_DigitIV_3_bone/snowyowl_l_DigitIV_4_bone/snowyowl_l_DigitIV_4-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_l_Femur_bone/snowyowl_l_Tibia_bone/snowyowl_l_Tarso_bone/snowyowl_l_Foot_bone/snowyowl_l_Foot-nub
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Ankle_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Ankle_ctrl/snowyowl_r_DigitI_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Ankle_ctrl/snowyowl_r_DigitII_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Ankle_ctrl/snowyowl_r_DigitIII_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Ankle_ctrl/snowyowl_r_DigitIV_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitI_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitI_bone/snowyowl_r_DigitI-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitII_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitII_1_bone/snowyowl_r_DigitII_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitII_1_bone/snowyowl_r_DigitII_2_bone/snowyowl_r_DigitII_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIII_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIII_1_bone/snowyowl_r_DigitIII_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIII_1_bone/snowyowl_r_DigitIII_2_bone/snowyowl_r_DigitIII_3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIII_1_bone/snowyowl_r_DigitIII_2_bone/snowyowl_r_DigitIII_3_bone/snowyowl_r_DigitIII_3-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIV_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIV_1_bone/snowyowl_r_DigitIV_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIV_1_bone/snowyowl_r_DigitIV_2_bone/snowyowl_r_DigitIV_3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIV_1_bone/snowyowl_r_DigitIV_2_bone/snowyowl_r_DigitIV_3_bone/snowyowl_r_DigitIV_4_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_DigitIV_1_bone/snowyowl_r_DigitIV_2_bone/snowyowl_r_DigitIV_3_bone/snowyowl_r_DigitIV_4_bone/snowyowl_r_DigitIV_4-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_r_Femur_bone/snowyowl_r_Tibia_bone/snowyowl_r_Tarso_bone/snowyowl_r_Foot_bone/snowyowl_r_Foot-nub
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Secondary_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Secondary_2_bone/snowyowl_l_Secondary_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Secondary_2_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Aula_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Aula_bone/snowyowl_l_Aula-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Aula_bone/snowyowl_l_Primary_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Aula_bone/snowyowl_l_Primary_1_bone/snowyowl_l_Primary_1-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Aula_bone/snowyowl_l_Primary_1_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Primary_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Primary_2_bone/snowyowl_l_Primary_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_bone/snowyowl_l_Ulna_bone/snowyowl_l_Primary_2_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_ctrl/snowyowl_l_Ulna_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Humerus_ctrl/snowyowl_l_Ulna_ctrl/snowyowl_l_Aula_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Secondary_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Secondary_1_bone/snowyowl_l_Secondary_1-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_bone/snowyowl_l_Secondary_1_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_l_Clav_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Beak_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Beak_bone/snowyowl_Beak-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Beak_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_Head-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Jaw_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Jaw_bone/Snowyowl_Mandible_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Jaw_bone/Snowyowl_Mandible_bone/Snowyowl_Mandible-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Jaw_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eye_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eye_bone/snowyowl_l_Eye-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eye_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidlower_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidlower_bone/snowyowl_l_Eyelidlower-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidlower_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidupper_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidupper_bone/snowyowl_l_Eyelidupper-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_l_Eyelidupper_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/Snowyowl_Mandible_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eye_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eye_bone/snowyowl_r_Eye-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eye_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidlower_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidlower_bone/snowyowl_r_Eyelidlower-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidlower_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidupper_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidupper_bone/snowyowl_r_Eyelidupper-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_Neck_bone/snowyowl_Head_bone/snowyowl_r_Eyelidupper_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Secondary_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Secondary_2_bone/snowyowl_r_Secondary_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Secondary_2_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Aula_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Aula_bone/snowyowl_r_Aula-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Aula_bone/snowyowl_r_Primary_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Aula_bone/snowyowl_r_Primary_1_bone/snowyowl_r_Primary_1-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Aula_bone/snowyowl_r_Primary_1_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Primary_2_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Primary_2_bone/snowyowl_r_Primary_2-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_bone/snowyowl_r_Ulna_bone/snowyowl_r_Primary_2_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_ctrl/snowyowl_r_Ulna_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Humerus_ctrl/snowyowl_r_Ulna_ctrl/snowyowl_r_Aula_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Secondary_1_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Secondary_1_bone/snowyowl_r_Secondary_1-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_bone/snowyowl_r_Secondary_1_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Spine1_bone/snowyowl_Spine2_bone/snowyowl_Spine3_bone/snowyowl_r_Clav_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_FeatherTail_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_FeatherTail_bone/snowyowl_FeatherTail-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_FeatherTail_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_l_FeatherTail_3_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_l_FeatherTail_3_bone/snowyowl_l_FeatherTailTail_3-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_l_FeatherTailTail_3_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_r_FeatherTail_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_r_FeatherTail_bone/snowyowl_r_FeatherTailTail_3-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_r_FeatherTailTail_3_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_bone/snowyowl_Tail-nub_bone
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_COM_ctrl/snowyowl_Pelvis_bone/snowyowl_Tail_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp/snowyowl_l_ToeLift_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp/snowyowl_l_ToeLift_hlp/snowyowl_l_HeelPeel_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp/snowyowl_l_ToeLift_hlp/snowyowl_l_HeelPeel_hlp/snowyowl_l_heel_IKGoal
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp/snowyowl_l_ToeLift_hlp/snowyowl_l_ToeTap_hlp0
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_l_Foot_ctrl/snowyowl_l_Heel_hlp/snowyowl_l_ToeLift_hlp/snowyowl_l_ToeTap_hlp0/snowyowl_l_toe_IKGoal
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp/snowyowl_r_ToeLift_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp/snowyowl_r_ToeLift_hlp/snowyowl_r_HeelPeel_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp/snowyowl_r_ToeLift_hlp/snowyowl_r_HeelPeel_hlp/snowyowl_r_heel_IKGoal
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp/snowyowl_r_ToeLift_hlp/snowyowl_r_ToeTap_hlp
+        weight: 1
+      - path: snowyowl_Main_ctrl/snowyowl_r_Foot_ctrl/snowyowl_r_Heel_hlp/snowyowl_r_ToeLift_hlp/snowyowl_r_ToeTap_hlp/snowyowl_r_toe_IKGoal
+        weight: 1
+      - path: snowyowl_mesh
+        weight: 1
+      - path: snowyowl_NeckBase_ctrl
+        weight: 1
+      - path: snowyowl_SpineBase_ctrl
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 136
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: snowyowl_Main_ctrl
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

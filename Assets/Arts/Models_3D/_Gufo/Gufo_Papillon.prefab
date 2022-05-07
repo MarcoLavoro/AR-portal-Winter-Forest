@@ -1,0 +1,5851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &380041122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380041123}
+  m_Layer: 0
+  m_Name: Papillon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380041123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380041122}
+  m_LocalRotation: {x: -0.00000006705044, y: 0.000000036013173, z: 0.00000005960509,
+    w: 1}
+  m_LocalPosition: {x: 0.0012, y: -0.0015, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5006512735339428701}
+  m_Father: {fileID: 3247364632514348553}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3247364632513970533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514348553}
+  m_Layer: 0
+  m_Name: snowyowl_Neck_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514348553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513970533}
+  m_LocalRotation: {x: -0.0000021340184, y: 0.0000002058838, z: 0.3894653, w: 0.92104113}
+  m_LocalPosition: {x: -0.077248, y: 0.0000000047683715, z: 1.4551915e-13}
+  m_LocalScale: {x: 0.99999964, y: 0.9999997, z: 1}
+  m_Children:
+  - {fileID: 3247364632514299561}
+  - {fileID: 380041123}
+  m_Father: {fileID: 3247364632514280259}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.0002992699, y: -0.000020023837, z: 8.23516}
+--- !u!1 &3247364632513970945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514389139}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_1-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514389139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513970945}
+  m_LocalRotation: {x: 0.000000039115502, y: 0.000000029801823, z: -1.163057e-15,
+    w: 1}
+  m_LocalPosition: {x: 0.1833108, y: -0.000000028610229, z: -0.000000026226044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514298963}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000010245242, y: 0.00000042688959, z: -0.00000085376456}
+--- !u!1 &3247364632513971061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514337599}
+  m_Layer: 0
+  m_Name: snowyowl_Tail_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514337599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513971061}
+  m_LocalRotation: {x: -0.0000000046527506, y: 0.000000034258935, z: 0.05317516, w: 0.9985852}
+  m_LocalPosition: {x: -0.06313445, y: 0, z: 0.000000019073484}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514362565}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.0000012352486, y: 0.000005492852, z: 7.062128}
+--- !u!1 &3247364632513971115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514352285}
+  m_Layer: 0
+  m_Name: snowyowl_SpineBase_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514352285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513971115}
+  m_LocalRotation: {x: -0.34572396, y: 0.6168266, z: -0.34572387, w: 0.6168265}
+  m_LocalPosition: {x: 9.315977e-11, y: 0.12895331, z: 0.0021312374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -0.000007470519, y: 90, z: 5.359191}
+--- !u!1 &3247364632513971725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514353039}
+  m_Layer: 0
+  m_Name: snowyowl_r_HeelPeel_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514353039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513971725}
+  m_LocalRotation: {x: 2.7145092e-12, y: 0.00000023841858, z: -6.471894e-19, w: 1}
+  m_LocalPosition: {x: -0.08854698, y: 0.11107786, z: 0.000000085830685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514308299}
+  m_Father: {fileID: 3247364632514311849}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.1105982e-10, y: 0.000027320755, z: 0}
+--- !u!1 &3247364632513972231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514278755}
+  m_Layer: 0
+  m_Name: Snowyowl_Mandible_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514278755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513972231}
+  m_LocalRotation: {x: -0.000000018814468, y: 0.00000045637003, z: 0.2689739, w: 0.96314746}
+  m_LocalPosition: {x: -0.019870251, y: -0.000000038146972, z: -0.0000000022734457}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514301171}
+  m_Father: {fileID: 3247364632514270931}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000918736, y: 0.000043233907, z: 31.206427}
+--- !u!1 &3247364632513972335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514337113}
+  - component: {fileID: 3247364632513072337}
+  - component: {fileID: 3247364632512019091}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitI_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514337113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513972335}
+  m_LocalRotation: {x: 0.70610714, y: 0.6816443, z: -0.13318183, w: 0.13797241}
+  m_LocalPosition: {x: -0.030907005, y: -0.023912199, z: 0.015459275}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 3247364632514331945}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 22.111595, y: 179.99907, z: -170.72975}
+--- !u!33 &3247364632513072337
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513972335}
+  m_Mesh: {fileID: 4300012, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512019091
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513972335}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632513972883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514357043}
+  m_Layer: 0
+  m_Name: snowyowl_r_Heel_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514357043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513972883}
+  m_LocalRotation: {x: -0.000674258, y: 0.7071064, z: -0.0006402672, w: 0.70710653}
+  m_LocalPosition: {x: -0.0000000667572, y: 0.06392256, z: -0.08834029}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514311849}
+  m_Father: {fileID: 3247364632514269225}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.002754227, y: 89.99998, z: -0.10651397}
+--- !u!1 &3247364632513973289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514303517}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIII_3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514303517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513973289}
+  m_LocalRotation: {x: 0.0000009530925, y: -0.00000032884697, z: 0.0000007171187,
+    w: 1}
+  m_LocalPosition: {x: 0.020196851, y: 0.0000007748604, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514334765}
+  m_Father: {fileID: 3247364632514353043}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000109283086, y: -0.000037565882, z: 0.00008196227}
+--- !u!1 &3247364632513973875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514301375}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514301375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513973875}
+  m_LocalRotation: {x: -0.7076512, y: -0.68310964, z: -0.12536544, w: 0.1299022}
+  m_LocalPosition: {x: 0.030909507, y: 0.0161777, z: 0.013997931}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 3247364632514314005}
+  m_Father: {fileID: 3247364632514267299}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -20.801271, y: -179.99725, z: -170.72792}
+--- !u!1 &3247364632513974597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514319451}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitII_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514319451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513974597}
+  m_LocalRotation: {x: 0.14714134, y: 0.142058, z: -0.6797857, w: 0.7043156}
+  m_LocalPosition: {x: -0.03091279, y: 0.032435812, z: 0.015453744}
+  m_LocalScale: {x: 0.99999964, y: 0.99999964, z: 1}
+  m_Children:
+  - {fileID: 3247364632514310581}
+  m_Father: {fileID: 3247364632514278471}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 23.60355, y: 0.003638846, z: 9.282064}
+--- !u!1 &3247364632513974909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514276617}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514276617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513974909}
+  m_LocalRotation: {x: -0.00000029778823, y: -0.0000001638303, z: 0.04909936, w: 0.9987939}
+  m_LocalPosition: {x: 0.10500583, y: -0.062210158, z: -0.0029023218}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514269213}
+  m_Father: {fileID: 3247364632514394829}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.5623116, y: -0.5376913, z: -85.637375}
+--- !u!1 &3247364632513975177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514349397}
+  m_Layer: 0
+  m_Name: snowyowl_l_FeatherTailTail_3-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514349397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513975177}
+  m_LocalRotation: {x: -0.00000000745078, y: -5.9680657e-13, z: -0.0000000074506294,
+    w: 1}
+  m_LocalPosition: {x: -0.12833013, y: -0.000000042915342, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514333463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000042688185, y: 0.00000085376786, z: -0.0000034951083}
+--- !u!1 &3247364632513975219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514320091}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_4_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514320091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513975219}
+  m_LocalRotation: {x: 0.0000023842736, y: 0.00000016098197, z: 0.0000000018622365,
+    w: 1}
+  m_LocalPosition: {x: 0.014286084, y: 0.0000004804134, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514349535}
+  m_Father: {fileID: 3247364632514267317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0002740613, y: 0.000017075497, z: 0.0000051226184}
+--- !u!1 &3247364632513977255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514267299}
+  m_Layer: 0
+  m_Name: snowyowl_r_Foot_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514267299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513977255}
+  m_LocalRotation: {x: -0.00011233768, y: -0.00044168497, z: 0.20121431, w: 0.97954714}
+  m_LocalPosition: {x: 0.049949516, y: 0.000000085830685, z: -0.000000052452087}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514347173}
+  - {fileID: 3247364632514388587}
+  - {fileID: 3247364632514341353}
+  - {fileID: 3247364632514301375}
+  - {fileID: 3247364632514345887}
+  m_Father: {fileID: 3247364632514277067}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.002427897, y: -0.05216153, z: 86.56072}
+--- !u!1 &3247364632513978219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514279303}
+  m_Layer: 0
+  m_Name: snowyowl_r_Ulna_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514279303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513978219}
+  m_LocalRotation: {x: -0.0365602, y: 0.023827175, z: 0.9910825, w: 0.1259013}
+  m_LocalPosition: {x: 0.18472481, y: -0.000000038146972, z: 0.0000000047683715}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514320803}
+  - {fileID: 3247364632514394471}
+  - {fileID: 3247364632514336481}
+  m_Father: {fileID: 3247364632514394829}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -6.42721, y: 18.049927, z: 4.656101}
+--- !u!1 &3247364632513978549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514347377}
+  m_Layer: 0
+  m_Name: snowyowl_Hip_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514347377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513978549}
+  m_LocalRotation: {x: 0.66818017, y: 0.2313771, z: 0.66818005, w: 0.23137715}
+  m_LocalPosition: {x: -0, y: 0.12895332, z: 0.0021312332}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.000015261203, y: 90, z: 179.62758}
+--- !u!1 &3247364632513978555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514345887}
+  m_Layer: 0
+  m_Name: snowyowl_r_Foot-nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514345887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513978555}
+  m_LocalRotation: {x: 0.00000023871692, y: 0.0000047683425, z: -0.0000043424684,
+    w: 1}
+  m_LocalPosition: {x: 0.042864747, y: -0.00000037163494, z: -0.00000041484833}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514267299}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.000027452194, y: 0.0005464115, z: -0.0004934811}
+--- !u!1 &3247364632513981523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514308299}
+  m_Layer: 0
+  m_Name: snowyowl_r_heel_IKGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514308299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513981523}
+  m_LocalRotation: {x: 0.000657318, y: -0.7071065, z: 0.0006573179, w: 0.7071066}
+  m_LocalPosition: {x: -0.000000038146972, y: 0.000000059604645, z: -0.000000014305114}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514353039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.10652295, y: -89.999985, z: 0.0000000066701165}
+--- !u!1 &3247364632513981891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514302909}
+  m_Layer: 0
+  m_Name: snowyowl_r_FeatherTail_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514302909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513981891}
+  m_LocalRotation: {x: -0.10830704, y: -0.6987627, z: -0.6967769, w: 0.12042538}
+  m_LocalPosition: {x: -0.03703963, y: -0.0018039799, z: 0.037660006}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514354475}
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -89.00495, y: -89.997406, z: -71.38627}
+--- !u!1 &3247364632513983711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514304477}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidupper_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514304477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513983711}
+  m_LocalRotation: {x: 0.046280496, y: -0.2802888, z: -0.2323151, w: 0.930229}
+  m_LocalPosition: {x: -0.019457854, y: 0.015460014, z: -0.0295977}
+  m_LocalScale: {x: 0.9999998, y: 0.99999976, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514299317}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -2.5291374, y: -32.922092, z: -27.296984}
+--- !u!1 &3247364632513984675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514284401}
+  - component: {fileID: 3247364632513002423}
+  - component: {fileID: 3247364632511972665}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitI_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514284401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513984675}
+  m_LocalRotation: {x: 0.7061252, y: 0.6816426, z: -0.13314216, w: 0.13792694}
+  m_LocalPosition: {x: 0.030908026, y: 0.02391313, z: -0.015451817}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304199}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 22.1046, y: 179.99974, z: -170.72801}
+--- !u!33 &3247364632513002423
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513984675}
+  m_Mesh: {fileID: 4300016, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632511972665
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513984675}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632513985317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514282291}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eye_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514282291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513985317}
+  m_LocalRotation: {x: -0.012035605, y: -0.28422707, z: -0.037461054, w: 0.9579493}
+  m_LocalPosition: {x: -0.019457854, y: 0.015460014, z: -0.0295977}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 3247364632514346431}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -2.5421345, y: -32.968918, z: -3.726507}
+--- !u!1 &3247364632513985479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514330011}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidupper-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514330011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513985479}
+  m_LocalRotation: {x: -0.00000001862641, y: 0.000000007916145, z: 0.00000004470288,
+    w: 1}
+  m_LocalPosition: {x: 0.024150696, y: 0.000000038146972, z: -0.0000000047683715}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514358173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000029881699, y: 0.000010565369, z: -0.0000017075358}
+--- !u!1 &3247364632513986761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514320413}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_1-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514320413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513986761}
+  m_LocalRotation: {x: -0.0000000037253898, y: 0.00000000372544, z: 0.00000004470328,
+    w: 1}
+  m_LocalPosition: {x: -0.21360584, y: -0.000000028610229, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514361151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000034150828, y: -2.2797195e-11, z: 1.1398626e-11}
+--- !u!1 &3247364632513987293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514347953}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIII_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514347953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513987293}
+  m_LocalRotation: {x: -0.0000017116046, y: -0.000000024010555, z: 0.000007556752,
+    w: 1}
+  m_LocalPosition: {x: -0.015602383, y: 0, z: 0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514352039}
+  m_Father: {fileID: 3247364632514338399}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0001972217, y: 0.00000042389507, z: 0.0008691416}
+--- !u!1 &3247364632513987495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514330201}
+  m_Layer: 0
+  m_Name: Snowyowl_Beak_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514330201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513987495}
+  m_LocalRotation: {x: 0.00000633675, y: -0.000004160573, z: 0.61532915, w: 0.7882703}
+  m_LocalPosition: {x: -0.07942029, y: -0.0022493743, z: 0.000000019073486}
+  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1}
+  m_Children:
+  - {fileID: 3247364632514338333}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0008658445, y: 0.00007297112, z: 75.95168}
+--- !u!1 &3247364632513988535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514269213}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514269213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513988535}
+  m_LocalRotation: {x: 0.000000037252956, y: 0.000000007450482, z: 0.000000014900763,
+    w: 1}
+  m_LocalPosition: {x: 0.17718087, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514276617}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000034151517, y: 0.0000008537567, z: 0.000004268839}
+--- !u!1 &3247364632513990399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514305969}
+  m_Layer: 0
+  m_Name: snowyowl_l_ToeLift_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514305969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513990399}
+  m_LocalRotation: {x: -0.00073623675, y: 9.225951e-14, z: 6.7924856e-17, w: 0.99999976}
+  m_LocalPosition: {x: -0.0002578497, y: 0.17516463, z: 0.00000032424927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514273977}
+  - {fileID: 3247364632514356151}
+  m_Father: {fileID: 3247364632514314437}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.08436652, y: 1.0572164e-11, z: 0}
+--- !u!1 &3247364632513991709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514345549}
+  m_Layer: 0
+  m_Name: snowyowl_l_Tarso_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514345549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513991709}
+  m_LocalRotation: {x: -0.0031253584, y: -0.0047747428, z: -0.67366046, w: 0.739019}
+  m_LocalPosition: {x: -0.07252404, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514331945}
+  - {fileID: 3247364632514278471}
+  m_Father: {fileID: 3247364632514340307}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.12177963, y: -0.04872673, z: -120.22714}
+--- !u!1 &3247364632513993249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514280335}
+  m_Layer: 0
+  m_Name: snowyowl_r_Clav_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514280335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513993249}
+  m_LocalRotation: {x: -0.7545917, y: 0.59723794, z: -0.19744767, w: -0.18684943}
+  m_LocalPosition: {x: -0.0018060493, y: 0.04738175, z: 0.079379074}
+  m_LocalScale: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514394829}
+  - {fileID: 3247364632514356933}
+  - {fileID: 3247364632514298963}
+  - {fileID: 3247364632514305215}
+  m_Father: {fileID: 3247364632514280259}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 66.81878, y: 12.036829, z: 102.693726}
+--- !u!1 &3247364632513993279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514310581}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitII_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514310581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513993279}
+  m_LocalRotation: {x: -0.0000017107814, y: -0.0000000032102665, z: 0.000007556752,
+    w: 1}
+  m_LocalPosition: {x: -0.015602381, y: 0.0000000011920929, z: 0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514352511}
+  m_Father: {fileID: 3247364632514319451}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00019978294, y: -0.0000008567747, z: 0.00086231134}
+--- !u!1 &3247364632513993757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514307089}
+  - component: {fileID: 3247364632512956245}
+  - component: {fileID: 3247364632511971439}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitII_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514307089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513993757}
+  m_LocalRotation: {x: 0.14714132, y: 0.14205803, z: -0.67978567, w: 0.7043156}
+  m_LocalPosition: {x: -0.030912422, y: 0.03243896, z: 0.0154479025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514331945}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 23.603542, y: 0.0036334887, z: 9.282044}
+--- !u!33 &3247364632512956245
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513993757}
+  m_Mesh: {fileID: 4300010, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632511971439
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513993757}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632513995357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514352513}
+  m_Layer: 0
+  m_Name: snowyowl_l_Clav_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514352513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513995357}
+  m_LocalRotation: {x: -0.5972375, y: -0.75459135, z: -0.18685088, w: 0.1974487}
+  m_LocalPosition: {x: -0.0028979874, y: 0.084337816, z: -0.079379864}
+  m_LocalScale: {x: 0.99999976, y: 0.9999996, z: 0.99999964}
+  m_Children: []
+  m_Father: {fileID: 3247364632514280259}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -66.81856, y: -12.036863, z: -77.30626}
+--- !u!1 &3247364632513998955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514394471}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514394471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632513998955}
+  m_LocalRotation: {x: -0.00000076640123, y: -0.0000010336213, z: 0.99999654, w: 0.0026249418}
+  m_LocalPosition: {x: 0.09016919, y: -0.05023415, z: -0.0029023264}
+  m_LocalScale: {x: 0.9999996, y: 0.9999997, z: 1}
+  m_Children:
+  - {fileID: 3247364632514341133}
+  m_Father: {fileID: 3247364632514279303}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.000079205594, y: -0.000056047575, z: -63.65309}
+--- !u!1 &3247364632514000647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514346359}
+  m_Layer: 0
+  m_Name: snowyowl_FeatherTail_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514346359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514000647}
+  m_LocalRotation: {x: 0.7070802, y: 0.0061421427, z: 0.006142125, w: 0.70708}
+  m_LocalPosition: {x: -0.19140193, y: -0.010748577, z: 0.000000019073484}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 89.00456, y: 90.00088, z: 90.00088}
+--- !u!1 &3247364632514001187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514296237}
+  - component: {fileID: 3247364632523375347}
+  m_Layer: 0
+  m_Name: Gufo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514296237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514281509}
+  - {fileID: 3247364632514277641}
+  - {fileID: 3247364632514347377}
+  - {fileID: 3247364632514322215}
+  - {fileID: 3247364632514296087}
+  - {fileID: 3247364632514350171}
+  - {fileID: 3247364632514352285}
+  - {fileID: 3247364632514275473}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3247364632523375347
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001187}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+  m_Controller: {fileID: 9100000, guid: 03bcbb775f8a408479261e6f0baa25b3, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &3247364632514001281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514317565}
+  - component: {fileID: 3247364632513035307}
+  - component: {fileID: 3247364632512051559}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514317565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001281}
+  m_LocalRotation: {x: -0.70765126, y: -0.6831096, z: -0.1253655, w: 0.12990214}
+  m_LocalPosition: {x: 0.030908555, y: 0.016178798, z: 0.01399879}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304199}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -20.80127, y: -179.99725, z: -170.72794}
+--- !u!33 &3247364632513035307
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001281}
+  m_Mesh: {fileID: 4300022, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512051559
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001281}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514001437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514279037}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitI-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514279037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001437}
+  m_LocalRotation: {x: -0.000002913748, y: -0.0000000698544, z: 0.0000064391643, w: 1}
+  m_LocalPosition: {x: -0.035721596, y: 0.0000000011920929, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304271}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00033467915, y: -0.000007688271, z: 0.0007376604}
+--- !u!1 &3247364632514001863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514346011}
+  m_Layer: 0
+  m_Name: snowyowl_l_Aula_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514346011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514001863}
+  m_LocalRotation: {x: 0.01679641, y: 0.0018583375, z: -0.9991143, w: 0.038537435}
+  m_LocalPosition: {x: -0.18914874, y: 0.000000047683713, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 3247364632514322209}
+  - {fileID: 3247364632514361151}
+  - {fileID: 3247364632514307499}
+  m_Father: {fileID: 3247364632514340293}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.833181, y: 14.537978, z: -27.64308}
+--- !u!1 &3247364632514002957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514280259}
+  m_Layer: 0
+  m_Name: snowyowl_Spine3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514280259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514002957}
+  m_LocalRotation: {x: 0.0000004766384, y: -0.0000019376637, z: -0.13538063, w: 0.9907937}
+  m_LocalPosition: {x: -0.09583635, y: -0.0000000047683715, z: 4.3655745e-13}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3247364632514392125}
+  - {fileID: 3247364632514352513}
+  - {fileID: 3247364632514348553}
+  - {fileID: 3247364632514280335}
+  - {fileID: 3247364632514267727}
+  m_Father: {fileID: 3247364632514362553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000081766135, y: -0.000021170228, z: -8.921737}
+--- !u!1 &3247364632514003013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514324283}
+  - component: {fileID: 3247364632512988549}
+  - component: {fileID: 3247364632512043417}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIII_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514324283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514003013}
+  m_LocalRotation: {x: -0.06225443, y: -0.060080163, z: -0.69186854, w: 0.7168213}
+  m_LocalPosition: {x: 0.03091185, y: -0.032435775, z: 0.014002547}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304199}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -9.926548, y: 0.0005823471, z: 9.280199}
+--- !u!33 &3247364632512988549
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514003013}
+  m_Mesh: {fileID: 4300020, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512043417
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514003013}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514003817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514350171}
+  m_Layer: 0
+  m_Name: snowyowl_NeckBase_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514350171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514003817}
+  m_LocalRotation: {x: -0.45485148, y: 0.54139626, z: -0.45484805, w: 0.54139954}
+  m_LocalPosition: {x: -0.000000035050984, y: 0.13874842, z: 0.26906347}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.0003816368, y: 89.999985, z: -2.8914564}
+--- !u!1 &3247364632514004245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514272915}
+  m_Layer: 0
+  m_Name: snowyowl_r_Ulna_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514272915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514004245}
+  m_LocalRotation: {x: -0.036560193, y: 0.023827227, z: 0.9910825, w: 0.12590142}
+  m_LocalPosition: {x: 0.18472488, y: -0.000000047683713, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514339285}
+  m_Father: {fileID: 3247364632514356933}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -6.4271975, y: 18.049923, z: 4.656102}
+--- !u!1 &3247364632514004327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514265783}
+  m_Layer: 0
+  m_Name: snowyowl_l_heel_IKGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514265783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514004327}
+  m_LocalRotation: {x: 0.7071075, y: -0.00000009415688, z: 0.7071062, w: 0.00000009415706}
+  m_LocalPosition: {x: 0.0000051784514, y: 0.00004894495, z: -0.0000029134749}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514273977}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000015258789, y: 90.0001, z: 180}
+--- !u!1 &3247364632514004881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514324249}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidupper_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514324249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514004881}
+  m_LocalRotation: {x: 0.28029197, y: 0.046267062, z: 0.93022984, w: 0.23231077}
+  m_LocalPosition: {x: -0.048855275, y: 0.033784788, z: 0.049599245}
+  m_LocalScale: {x: 0.99999976, y: 0.9999997, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 2.530529, y: 32.92211, z: 152.70392}
+--- !u!1 &3247364632514005113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514299317}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidupper-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514299317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514005113}
+  m_LocalRotation: {x: -0.00000001583237, y: 0.000000033527336, z: -1.9842325e-13,
+    w: 1}
+  m_LocalPosition: {x: -0.024150657, y: 0, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000021344775, y: 0.0000028814738, z: 0.000001707547}
+--- !u!1 &3247364632514005307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514270931}
+  m_Layer: 0
+  m_Name: Snowyowl_Jaw_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514270931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514005307}
+  m_LocalRotation: {x: 0.000007897453, y: -0.0000017658881, z: 0.24688515, w: 0.9690448}
+  m_LocalPosition: {x: -0.04997007, y: -0.01577671, z: -0.00000019073485}
+  m_LocalScale: {x: 0.99999964, y: 0.9999997, z: 1}
+  m_Children:
+  - {fileID: 3247364632514278755}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.0009201771, y: 0.00002859928, z: 28.586525}
+--- !u!1 &3247364632514005533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514330019}
+  m_Layer: 0
+  m_Name: Snowyowl_Beak_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514330019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514005533}
+  m_LocalRotation: {x: 0.000006355195, y: -0.000004183394, z: 0.6153291, w: 0.7882703}
+  m_LocalPosition: {x: -0.10483178, y: -0.038756866, z: -0.0000005149835}
+  m_LocalScale: {x: 0.9999994, y: 0.99999964, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.0008690393, y: 0.00007033002, z: 75.95168}
+--- !u!1 &3247364632514007099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514267317}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514267317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514007099}
+  m_LocalRotation: {x: 0.0000042908364, y: -0.00000004944426, z: 0.0000026244672,
+    w: 1}
+  m_LocalPosition: {x: 0.015902868, y: 0.000000641346, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514320091}
+  m_Father: {fileID: 3247364632514314005}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00049348123, y: -0.000011096389, z: 0.00030906597}
+--- !u!1 &3247364632514007811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514336481}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_2_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514336481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514007811}
+  m_LocalRotation: {x: -0.0000005233575, y: -0.0000006915332, z: 0.99999654, w: 0.002625061}
+  m_LocalPosition: {x: 0.19224434, y: -0.2563425, z: -0.0029025124}
+  m_LocalScale: {x: 0.9999995, y: 0.9999993, z: 0.99999964}
+  m_Children: []
+  m_Father: {fileID: 3247364632514279303}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.000079948906, y: -0.00006139597, z: -63.6531}
+--- !u!1 &3247364632514008355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514284619}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_2_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514284619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514008355}
+  m_LocalRotation: {x: -0.0000012911273, y: -0.0000005185042, z: 0.04909943, w: 0.9987939}
+  m_LocalPosition: {x: -0.1618076, y: 0.2539745, z: 0.0029018496}
+  m_LocalScale: {x: 0.9999998, y: 0.99999964, z: 0.9999998}
+  m_Children: []
+  m_Father: {fileID: 3247364632514337785}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 5.5621934, y: -0.53774136, z: -85.63736}
+--- !u!1 &3247364632514008589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514271071}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitII_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514271071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514008589}
+  m_LocalRotation: {x: 0.0000019073789, y: 0.00000013628464, z: -0.000007389114, w: 1}
+  m_LocalPosition: {x: 0.015602376, y: -0.00000009059906, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514276243}
+  m_Father: {fileID: 3247364632514388587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00021515125, y: 0.000017072294, z: -0.0008486508}
+--- !u!1 &3247364632514008597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514323495}
+  m_Layer: 0
+  m_Name: snowyowl_Spine1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514323495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514008597}
+  m_LocalRotation: {x: 0.00000014203889, y: -0.000000067686976, z: 0.9842876, w: 0.17657267}
+  m_LocalPosition: {x: 0.000000009536743, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+  m_Children:
+  - {fileID: 3247364632514362553}
+  m_Father: {fileID: 3247364632514362565}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.00002166182, y: -0.00000655414, z: -174.2684}
+--- !u!1 &3247364632514008697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514341133}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514341133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514008697}
+  m_LocalRotation: {x: 0.000000052153773, y: -0.0000000037251409, z: 1.9162389e-16,
+    w: 1}
+  m_LocalPosition: {x: 0.20638065, y: 0.000000047683713, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514394471}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000005122653, y: 0.0000017075243, z: -0.0000017075477}
+--- !u!1 &3247364632514008819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514305399}
+  m_Layer: 0
+  m_Name: snowyowl_l_Humerus_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514305399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514008819}
+  m_LocalRotation: {x: 0.2587355, y: -0.23364928, z: -0.74626046, w: 0.56706196}
+  m_LocalPosition: {x: -0.05934431, y: 0.000000019073486, z: -0.000000009536743}
+  m_LocalScale: {x: 0.9999998, y: 0.99999976, z: 0.9999997}
+  m_Children:
+  - {fileID: 3247364632514285925}
+  m_Father: {fileID: 3247364632514392125}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 20.81989, y: 14.477413, z: -13.482433}
+--- !u!1 &3247364632514009019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514322215}
+  m_Layer: 0
+  m_Name: snowyowl_Main_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514322215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514009019}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514333483}
+  - {fileID: 3247364632514282725}
+  - {fileID: 3247364632514269225}
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &3247364632514009399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514268605}
+  - component: {fileID: 3247364632513061185}
+  - component: {fileID: 3247364632512101895}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514268605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514009399}
+  m_LocalRotation: {x: -0.70764893, y: -0.68312776, z: -0.12532179, w: 0.12986135}
+  m_LocalPosition: {x: -0.030908411, y: -0.016181538, z: -0.013990788}
+  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514331945}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -20.794308, y: -179.99655, z: -170.72978}
+--- !u!33 &3247364632513061185
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514009399}
+  m_Mesh: {fileID: 4300006, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512101895
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514009399}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514010297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514352039}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIII_3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514352039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514010297}
+  m_LocalRotation: {x: -0.0000012726407, y: -0.000000070067195, z: -0.00000085309154,
+    w: 1}
+  m_LocalPosition: {x: -0.020196851, y: 0.00000030875205, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514323859}
+  m_Father: {fileID: 3247364632514347953}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00014599529, y: -0.00000789716, z: -0.0000973302}
+--- !u!1 &3247364632514010635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514351245}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidlower_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514351245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514010635}
+  m_LocalRotation: {x: -0.27491978, y: 0.07157686, z: -0.94439393, w: 0.16557789}
+  m_LocalPosition: {x: -0.05121804, y: 0.0013753128, z: 0.04942276}
+  m_LocalScale: {x: 0.99999994, y: 0.99999976, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 2.5305567, y: 32.922092, z: -159.3633}
+--- !u!1 &3247364632514011871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514302001}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidupper_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514302001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514011871}
+  m_LocalRotation: {x: 0.046280496, y: -0.28028876, z: -0.23231508, w: 0.93022907}
+  m_LocalPosition: {x: -0.048855275, y: 0.03378628, z: -0.049596176}
+  m_LocalScale: {x: 0.9999995, y: 0.9999997, z: 0.9999996}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -2.5291467, y: -32.922096, z: -27.29699}
+--- !u!1 &3247364632514012531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514276149}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_2_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514276149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514012531}
+  m_LocalRotation: {x: -0.0000007597305, y: 0.0000015070171, z: 0.99999654, w: 0.002625061}
+  m_LocalPosition: {x: -0.1922413, y: 0.25634122, z: 0.0029016638}
+  m_LocalScale: {x: 0.99999976, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514340293}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.00016221289, y: -0.00008414671, z: -63.653133}
+--- !u!1 &3247364632514013515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514362565}
+  m_Layer: 0
+  m_Name: snowyowl_Pelvis_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514362565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514013515}
+  m_LocalRotation: {x: 0.66818017, y: 0.23137696, z: 0.66818005, w: 0.23137729}
+  m_LocalPosition: {x: -0, y: 0, z: -0.000000004172325}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514317731}
+  - {fileID: 3247364632514392585}
+  - {fileID: 3247364632514323495}
+  - {fileID: 3247364632514351665}
+  - {fileID: 3247364632514337599}
+  m_Father: {fileID: 3247364632514333483}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0010528229, y: 89.999985, z: 179.62758}
+--- !u!1 &3247364632514013939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514358877}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514358877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514013939}
+  m_LocalRotation: {x: -0.0000009871305, y: 0.0000014480084, z: 0.99999654, w: 0.0026248225}
+  m_LocalPosition: {x: -0.0901663, y: 0.050232857, z: 0.0029024077}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514348333}
+  m_Father: {fileID: 3247364632514340293}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.00016829724, y: -0.0000776326, z: -63.653126}
+--- !u!1 &3247364632514014231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514304271}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitI_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514304271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514014231}
+  m_LocalRotation: {x: 0.7061071, y: 0.6816444, z: -0.13318178, w: 0.13797252}
+  m_LocalPosition: {x: -0.030907324, y: -0.023915343, z: 0.015453753}
+  m_LocalScale: {x: 0.9999995, y: 0.9999996, z: 1}
+  m_Children:
+  - {fileID: 3247364632514279037}
+  m_Father: {fileID: 3247364632514278471}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 22.111597, y: 179.99905, z: -170.72978}
+--- !u!1 &3247364632514014423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514331945}
+  - component: {fileID: 3247364632513072381}
+  - component: {fileID: 3247364632511972747}
+  m_Layer: 0
+  m_Name: snowyowl_l_Ankle_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514331945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514014423}
+  m_LocalRotation: {x: 0.0016133564, y: 0.0003083895, z: 0.20075083, w: 0.97964096}
+  m_LocalPosition: {x: -0.04993538, y: -0.0000016069412, z: -0.00010832786}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514337113}
+  - {fileID: 3247364632514307089}
+  - {fileID: 3247364632514343463}
+  - {fileID: 3247364632514268605}
+  m_Father: {fileID: 3247364632514345549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.17401893, y: 0.07173392, z: 86.506645}
+--- !u!33 &3247364632513072381
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514014423}
+  m_Mesh: {fileID: 4300004, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632511972747
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514014423}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514015603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514301171}
+  m_Layer: 0
+  m_Name: Snowyowl_Mandible-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514301171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514015603}
+  m_LocalRotation: {x: -0.000000043711495, y: 0.000000043711353, z: -0.000000044703874,
+    w: 1}
+  m_LocalPosition: {x: -0.02215597, y: 0.000000038146972, z: -1.4551915e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514278755}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000050089234, y: 0.000005008967, z: -0.00000853769}
+--- !u!1 &3247364632514015817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514270337}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_2_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514270337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514015817}
+  m_LocalRotation: {x: -0.00000015597017, y: -0.0000000897227, z: 0.0490992, w: 0.99879396}
+  m_LocalPosition: {x: 0.16180627, y: -0.25397494, z: -0.0029022358}
+  m_LocalScale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514394829}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 5.5623116, y: -0.5376954, z: -85.637375}
+--- !u!1 &3247364632514015925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514340165}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidlower-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514340165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514015925}
+  m_LocalRotation: {x: 4.973893e-14, y: -0.000000025145287, z: 1.2506997e-21, w: 1}
+  m_LocalPosition: {x: -0.024150696, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514389415}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000010672156, y: 0.00000053360355, z: -1.1398598e-11}
+--- !u!1 &3247364632514016107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514317687}
+  m_Layer: 0
+  m_Name: Snowyowl_Mandible_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514317687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514016107}
+  m_LocalRotation: {x: 0.0000070055557, y: -0.000003401406, z: 0.49843445, w: 0.8669274}
+  m_LocalPosition: {x: -0.088549376, y: -0.061581265, z: -0.0000008869165}
+  m_LocalScale: {x: 0.99999964, y: 0.9999996, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0.00089094316, y: 0.0000643715, z: 59.792942}
+--- !u!1 &3247364632514016137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514277641}
+  m_Layer: 0
+  m_Name: snowyowl_Head_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514277641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514016137}
+  m_LocalRotation: {x: 0.042167414, y: 0.7058479, z: 0.04217784, w: 0.70584816}
+  m_LocalPosition: {x: -0.0000000382208, y: 0.13740058, z: 0.30875984}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.0008490778, y: 89.99992, z: 8.802277}
+--- !u!1 &3247364632514016349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514339449}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514339449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514016349}
+  m_LocalRotation: {x: -0.0000042054385, y: -0.00000009094608, z: -0.0000026486819,
+    w: 1}
+  m_LocalPosition: {x: -0.015902862, y: 0.00000024199485, z: -0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514276205}
+  m_Father: {fileID: 3247364632514274065}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00048238208, y: -0.000010242782, z: -0.0002971133}
+--- !u!1 &3247364632514018229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514304199}
+  - component: {fileID: 3247364632513048591}
+  - component: {fileID: 3247364632512019365}
+  m_Layer: 0
+  m_Name: snowyowl_r_Ankle_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514304199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514018229}
+  m_LocalRotation: {x: -0.00011232335, y: -0.00044166102, z: 0.20121431, w: 0.97954714}
+  m_LocalPosition: {x: 0.049949724, y: 0.00000009059906, z: -0.0000023698806}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514284401}
+  - {fileID: 3247364632514349789}
+  - {fileID: 3247364632514324283}
+  - {fileID: 3247364632514317565}
+  m_Father: {fileID: 3247364632514277067}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0024225293, y: -0.05216405, z: 86.56072}
+--- !u!33 &3247364632513048591
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514018229}
+  m_Mesh: {fileID: 4300014, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512019365
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514018229}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514019097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514333727}
+  m_Layer: 0
+  m_Name: snowyowl_r_toe_IKGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514333727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514019097}
+  m_LocalRotation: {x: 0.000657318, y: -0.7071065, z: 0.0006573179, w: 0.7071066}
+  m_LocalPosition: {x: 0.04594036, y: -0.019607117, z: -0.00000006198883}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514343511}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.10652295, y: -89.999985, z: 0.0000000066701165}
+--- !u!1 &3247364632514019715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514281509}
+  - component: {fileID: 3247364632527623007}
+  m_Layer: 0
+  m_Name: snowyowl_feathers_new_mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514281509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514019715}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!137 &3247364632527623007
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514019715}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 22cf0b2e3e5f0a6489f9f6a01c092cd6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+  m_Bones:
+  - {fileID: 3247364632514361151}
+  - {fileID: 3247364632514358877}
+  - {fileID: 3247364632514331671}
+  - {fileID: 3247364632514303473}
+  - {fileID: 3247364632514327369}
+  - {fileID: 3247364632514333463}
+  - {fileID: 3247364632514302909}
+  - {fileID: 3247364632514324893}
+  - {fileID: 3247364632514394471}
+  - {fileID: 3247364632514276617}
+  - {fileID: 3247364632514298963}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3247364632514324893}
+  m_AABB:
+    m_Center: {x: 0.11219108, y: 0.045793705, z: 0.13119397}
+    m_Extent: {x: 0.26141894, y: 0.27973455, z: 0.16952023}
+  m_DirtyAABB: 0
+--- !u!1 &3247364632514020381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514324745}
+  m_Layer: 0
+  m_Name: snowyowl_Head-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514324745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514020381}
+  m_LocalRotation: {x: -0.00000023841768, y: -0.00000007058236, z: -1.6828083e-14,
+    w: 1}
+  m_LocalPosition: {x: -0.07726929, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.000027320755, y: -0.000008088116, z: -1.9024314e-17}
+--- !u!1 &3247364632514020595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514345631}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_4-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514345631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514020595}
+  m_LocalRotation: {x: -0.0000033867548, y: -0.00000004382445, z: -0.00000039488086,
+    w: 1}
+  m_LocalPosition: {x: -0.017422829, y: -0.000000005960464, z: 0.0000000047683715}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514276205}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00038675944, y: -0.0000068298655, z: -0.00004781133}
+--- !u!1 &3247364632514020653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514281845}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_1_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514281845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514020653}
+  m_LocalRotation: {x: -0.12819502, y: -0.13092446, z: -0.68777305, w: 0.70241946}
+  m_LocalPosition: {x: 0.08455797, y: 0.22237487, z: 0.002902031}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.9999997}
+  m_Children: []
+  m_Father: {fileID: 3247364632514392125}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.00008078093, y: 0.000033330038, z: -98.85987}
+--- !u!1 &3247364632514020719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514348333}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514348333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514020719}
+  m_LocalRotation: {x: 9.947771e-14, y: -0.0000000037252903, z: 1.989541e-13, w: 1}
+  m_LocalPosition: {x: -0.20638072, y: -0.000000042915342, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514358877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000051226066, y: 0.0000025613258, z: -0.0000017075529}
+--- !u!1 &3247364632514020983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514276205}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_4_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514276205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514020983}
+  m_LocalRotation: {x: -0.000002523731, y: 0.000000014962545, z: 0.000000003725328,
+    w: 1}
+  m_LocalPosition: {x: -0.014286093, y: 0.0000000035762786, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 3247364632514345631}
+  m_Father: {fileID: 3247364632514339449}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000286868, y: -0.000002561369, z: 0.0000085376905}
+--- !u!1 &3247364632514021489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514389415}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidlower_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514389415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514021489}
+  m_LocalRotation: {x: -0.071758464, y: -0.2757065, z: 0.16553396, w: 0.94415843}
+  m_LocalPosition: {x: -0.019457854, y: 0.015460014, z: -0.0295977}
+  m_LocalScale: {x: 0.9999997, y: 0.9999996, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514340165}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -2.5347333, y: -33.018604, z: 20.639933}
+--- !u!1 &3247364632514022013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514311849}
+  m_Layer: 0
+  m_Name: snowyowl_r_ToeLift_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514311849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514022013}
+  m_LocalRotation: {x: 3.322842e-12, y: 0.00000023841858, z: -7.9222727e-19, w: 1}
+  m_LocalPosition: {x: 0.00032565597, y: -0.17516454, z: -0.000000038146972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514353039}
+  - {fileID: 3247364632514343511}
+  m_Father: {fileID: 3247364632514357043}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.8076964e-10, y: 0.000027320755, z: 0}
+--- !u!1 &3247364632514022325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514349789}
+  - component: {fileID: 3247364632512955587}
+  - component: {fileID: 3247364632512064945}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitII_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514349789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514022325}
+  m_LocalRotation: {x: 0.14718579, y: 0.1420976, z: -0.6797856, w: 0.7042984}
+  m_LocalPosition: {x: 0.030911846, y: -0.03243805, z: -0.015447459}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514304199}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 23.610493, y: 0.003036415, z: 9.280505}
+--- !u!33 &3247364632512955587
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514022325}
+  m_Mesh: {fileID: 4300018, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512064945
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514022325}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514023123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514352511}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitII_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514352511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514023123}
+  m_LocalRotation: {x: -0.000001192173, y: -0.00000009369507, z: -0.0000010896475,
+    w: 1}
+  m_LocalPosition: {x: -0.020196851, y: 0.00000030755996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514310581}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00013318872, y: -0.000008964319, z: -0.00012977353}
+--- !u!1 &3247364632514023587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514305215}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_1_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514305215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514023587}
+  m_LocalRotation: {x: -0.12819429, y: -0.1309243, z: -0.68777317, w: 0.70241946}
+  m_LocalPosition: {x: -0.08455812, y: -0.22237465, z: -0.002902298}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514280335}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.000012599188, y: -0.0000032205617, z: -98.85988}
+--- !u!1 &3247364632514024051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514281463}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eye_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514281463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514024051}
+  m_LocalRotation: {x: 0.2839049, y: -0.010108849, z: 0.9580862, w: 0.036967594}
+  m_LocalPosition: {x: -0.019457845, y: 0.015459137, z: 0.029600259}
+  m_LocalScale: {x: 0.9999996, y: 0.9999997, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514353593}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 2.313134, y: 32.936306, z: 176.26456}
+--- !u!1 &3247364632514024563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514343463}
+  - component: {fileID: 3247364632513000931}
+  - component: {fileID: 3247364632512065723}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIII_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514343463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514024563}
+  m_LocalRotation: {x: -0.062297117, y: -0.060122762, z: -0.69185615, w: 0.7168259}
+  m_LocalPosition: {x: -0.030913085, y: 0.03243302, z: -0.014000592}
+  m_LocalScale: {x: 1.0000001, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514331945}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -9.933481, y: 0.0003462195, z: 9.281621}
+--- !u!33 &3247364632513000931
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514024563}
+  m_Mesh: {fileID: 4300008, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512065723
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514024563}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514024695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514339285}
+  m_Layer: 0
+  m_Name: snowyowl_r_Aula_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514339285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514024695}
+  m_LocalRotation: {x: 0.01679698, y: 0.0018587911, z: -0.9991143, w: 0.038537923}
+  m_LocalPosition: {x: 0.18914878, y: 0.0000000667572, z: 0.00000017642975}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514272915}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.928768, y: 14.238669, z: -28.027094}
+--- !u!1 &3247364632514027323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514267727}
+  m_Layer: 0
+  m_Name: snowyowl_r_Clav_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514267727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514027323}
+  m_LocalRotation: {x: -0.7545916, y: 0.59723794, z: -0.19744769, w: -0.18684958}
+  m_LocalPosition: {x: -0.0028979492, y: 0.084337585, z: 0.079379156}
+  m_LocalScale: {x: 0.99999976, y: 0.99999946, z: 0.9999997}
+  m_Children: []
+  m_Father: {fileID: 3247364632514280259}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 66.818794, y: 12.036889, z: 102.693794}
+--- !u!1 &3247364632514027865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514351665}
+  m_Layer: 0
+  m_Name: snowyowl_Tail_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514351665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514027865}
+  m_LocalRotation: {x: -0.000000019942073, y: -0.000000027435176, z: 0.053175207,
+    w: 0.9985852}
+  m_LocalPosition: {x: -0.06313444, y: 0, z: -0.00000000200351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514327369}
+  - {fileID: 3247364632514346359}
+  - {fileID: 3247364632514333463}
+  - {fileID: 3247364632514278077}
+  - {fileID: 3247364632514302909}
+  - {fileID: 3247364632514319837}
+  - {fileID: 3247364632514315127}
+  m_Father: {fileID: 3247364632514362565}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.000004668529, y: -0.0000020318025, z: 7.062132}
+--- !u!1 &3247364632514028639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514334441}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514334441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514028639}
+  m_LocalRotation: {x: -0.7076489, y: -0.68312776, z: -0.1253217, w: 0.12986138}
+  m_LocalPosition: {x: -0.030908074, y: -0.01617875, z: -0.013994755}
+  m_LocalScale: {x: 0.99999964, y: 0.9999997, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514274065}
+  m_Father: {fileID: 3247364632514278471}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -20.79431, y: -179.99655, z: -170.7298}
+--- !u!1 &3247364632514029467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514313289}
+  m_Layer: 0
+  m_Name: snowyowl_l_Foot-nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514313289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514029467}
+  m_LocalRotation: {x: -0.00030755985, y: 0.0000064371548, z: 0.00000047880974, w: 0.99999994}
+  m_LocalPosition: {x: -0.042864766, y: -0.000000035762785, z: 0.0000005483627}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 3247364632514278471}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.035243746, y: 0.000737627, z: 0.00005464161}
+--- !u!1 &3247364632514029547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514361151}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514361151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514029547}
+  m_LocalRotation: {x: 0.00000032380234, y: -0.0000015983744, z: -0.14448307, w: 0.9895073}
+  m_LocalPosition: {x: -0.08215629, y: -0.0063713263, z: 0.0029023837}
+  m_LocalScale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514320413}
+  m_Father: {fileID: 3247364632514346011}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.00000007532123, y: -0.00017492364, z: -5.29636}
+--- !u!1 &3247364632514029811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514276267}
+  m_Layer: 0
+  m_Name: snowyowl_l_toe_IKGoal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514276267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514029811}
+  m_LocalRotation: {x: 0.7071075, y: -0.00000009415688, z: 0.7071062, w: 0.00000009415706}
+  m_LocalPosition: {x: -0.045940384, y: 0.01960721, z: 0.0000011253356}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514356151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000015258789, y: 90.0001, z: 180}
+--- !u!1 &3247364632514029991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514274065}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIV_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514274065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514029991}
+  m_LocalRotation: {x: -0.000002126348, y: 0.000000028741066, z: 0.0000075623393,
+    w: 1}
+  m_LocalPosition: {x: -0.018817015, y: 0, z: 0.0000000047683715}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514339449}
+  m_Father: {fileID: 3247364632514334441}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00024674056, y: 0.0000008500323, z: 0.00086743385}
+--- !u!1 &3247364632514030477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514314909}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_1_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514314909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514030477}
+  m_LocalRotation: {x: 0.0000005215644, y: 0.00000016855523, z: -0.14448325, w: 0.98950726}
+  m_LocalPosition: {x: 0.31714576, y: -0.015413913, z: -0.0029025269}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 3247364632514320803}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.00006398183, y: 0.000010359928, z: -5.2963943}
+--- !u!1 &3247364632514030817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514317731}
+  m_Layer: 0
+  m_Name: snowyowl_l_Femur_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514317731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514030817}
+  m_LocalRotation: {x: -0.0026165186, y: 0.0049182507, z: -0.9818026, w: 0.18982291}
+  m_LocalPosition: {x: -0.03859508, y: 0.0025612926, z: -0.05982045}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 3247364632514340307}
+  m_Father: {fileID: 3247364632514362565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.11819546, y: 0.23182587, z: -136.7517}
+--- !u!1 &3247364632514032099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514278471}
+  m_Layer: 0
+  m_Name: snowyowl_l_Foot_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514278471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514032099}
+  m_LocalRotation: {x: 0.0016133566, y: 0.0003083912, z: 0.20075083, w: 0.97964096}
+  m_LocalPosition: {x: -0.049949575, y: -0.00000002026558, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3247364632514304271}
+  - {fileID: 3247364632514319451}
+  - {fileID: 3247364632514338399}
+  - {fileID: 3247364632514334441}
+  - {fileID: 3247364632514313289}
+  m_Father: {fileID: 3247364632514345549}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.17402321, y: 0.07173556, z: 86.50664}
+--- !u!1 &3247364632514032389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514334765}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIII_3-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514334765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514032389}
+  m_LocalRotation: {x: 2.3283608e-10, y: 0.0000000029869711, z: -6.954747e-19, w: 1}
+  m_LocalPosition: {x: 0.021009803, y: 0, z: -0.000000014305114}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514303517}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.8496496e-12, y: -0.000000640326, z: -3.8044462e-17}
+--- !u!1 &3247364632514033069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514311603}
+  m_Layer: 0
+  m_Name: snowyowl_r_Tibia_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514311603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514033069}
+  m_LocalRotation: {x: 0.00000025997812, y: -0.00000022343255, z: 0.99439937, w: 0.10568795}
+  m_LocalPosition: {x: 0.07039529, y: 0.000000076293944, z: -0.000000014305114}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514277067}
+  m_Father: {fileID: 3247364632514392585}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000037005695, y: 0.000013174806, z: 144.20749}
+--- !u!1 &3247364632514033105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514362871}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eye_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514362871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514033105}
+  m_LocalRotation: {x: 0.28390485, y: -0.010108837, z: 0.95808625, w: 0.036967583}
+  m_LocalPosition: {x: -0.05290034, y: 0.01806301, z: 0.051390596}
+  m_LocalScale: {x: 0.99999964, y: 0.9999996, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 2.3131316, y: 32.936287, z: 176.26456}
+--- !u!1 &3247364632514034413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514273977}
+  m_Layer: 0
+  m_Name: snowyowl_l_HeelPeel_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514273977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514034413}
+  m_LocalRotation: {x: -0.0007362367, y: -4.1189266e-13, z: -5.820799e-11, w: 0.99999976}
+  m_LocalPosition: {x: 0.08849875, y: -0.111094415, z: -0.0000012969971}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514265783}
+  m_Father: {fileID: 3247364632514305969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.084366515, y: -4.2288645e-11, z: -0.0000000066701142}
+--- !u!1 &3247364632514034491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514343511}
+  m_Layer: 0
+  m_Name: snowyowl_r_ToeTap_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514343511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514034491}
+  m_LocalRotation: {x: 2.7145092e-12, y: 0.00000023841858, z: -6.471894e-19, w: 1}
+  m_LocalPosition: {x: -0.08854698, y: 0.11107786, z: 0.000000085830685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514333727}
+  m_Father: {fileID: 3247364632514311849}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 3.1105982e-10, y: 0.000027320755, z: 0}
+--- !u!1 &3247364632514034649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514324893}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514324893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514034649}
+  m_LocalRotation: {x: 0.00000044953813, y: 0.00000021672024, z: -0.1444831, w: 0.9895073}
+  m_LocalPosition: {x: 0.08215359, y: 0.0063706776, z: -0.0029024219}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514322739}
+  m_Father: {fileID: 3247364632514320803}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.00006113304, y: 0.000016626112, z: -5.296385}
+--- !u!1 &3247364632514034741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514356933}
+  m_Layer: 0
+  m_Name: snowyowl_r_Humerus_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514356933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514034741}
+  m_LocalRotation: {x: 0.25873628, y: -0.23365113, z: -0.7462606, w: 0.5670607}
+  m_LocalPosition: {x: 0.059344284, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 0.99999964, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514272915}
+  m_Father: {fileID: 3247364632514280335}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 20.819935, y: 14.477367, z: -13.482523}
+--- !u!1 &3247364632514035413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514356151}
+  m_Layer: 0
+  m_Name: snowyowl_l_ToeTap_hlp0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514356151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514035413}
+  m_LocalRotation: {x: -0.0007362367, y: -4.1189266e-13, z: -5.820799e-11, w: 0.99999976}
+  m_LocalPosition: {x: 0.08849875, y: -0.111094415, z: -0.0000012969971}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514276267}
+  m_Father: {fileID: 3247364632514305969}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.084366515, y: -4.2288645e-11, z: -0.0000000066701142}
+--- !u!1 &3247364632514037229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514340307}
+  m_Layer: 0
+  m_Name: snowyowl_l_Tibia_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514340307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514037229}
+  m_LocalRotation: {x: 6.571392e-16, y: 6.1824486e-15, z: 0.99439853, w: 0.10569578}
+  m_LocalPosition: {x: -0.07039533, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514345549}
+  m_Father: {fileID: 3247364632514317731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000000013653572, y: 0.00000001893621, z: 144.20726}
+--- !u!1 &3247364632514037515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514333463}
+  m_Layer: 0
+  m_Name: snowyowl_l_FeatherTail_3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514333463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514037515}
+  m_LocalRotation: {x: 0.69876325, y: -0.10830591, z: 0.12042657, w: 0.69677633}
+  m_LocalPosition: {x: -0.03703961, y: -0.0018040085, z: -0.03766117}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 3247364632514349397}
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 89.00475, y: 90.00068, z: 108.61695}
+--- !u!1 &3247364632514037789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514362553}
+  m_Layer: 0
+  m_Name: snowyowl_Spine2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514362553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514037789}
+  m_LocalRotation: {x: 0.0000010933212, y: -0.0000017529319, z: -0.083741195, w: 0.99648756}
+  m_LocalPosition: {x: -0.094168164, y: -0.000000104904174, z: -0.000000011123608}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514280259}
+  m_Father: {fileID: 3247364632514323495}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000009372778, y: -0.000012177715, z: -2.9677637}
+--- !u!1 &3247364632514038813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514296087}
+  - component: {fileID: 3247364632527604381}
+  m_Layer: 0
+  m_Name: snowyowl_mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514296087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514038813}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!137 &3247364632527604381
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514038813}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 22cf0b2e3e5f0a6489f9f6a01c092cd6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+  m_Bones:
+  - {fileID: 3247364632514358173}
+  - {fileID: 3247364632514299561}
+  - {fileID: 3247364632514284397}
+  - {fileID: 3247364632514281463}
+  - {fileID: 3247364632514330201}
+  - {fileID: 3247364632514278755}
+  - {fileID: 3247364632514270931}
+  - {fileID: 3247364632514348553}
+  - {fileID: 3247364632514280259}
+  - {fileID: 3247364632514280335}
+  - {fileID: 3247364632514362553}
+  - {fileID: 3247364632514323495}
+  - {fileID: 3247364632514392585}
+  - {fileID: 3247364632514311603}
+  - {fileID: 3247364632514362565}
+  - {fileID: 3247364632514351665}
+  - {fileID: 3247364632514394829}
+  - {fileID: 3247364632514279303}
+  - {fileID: 3247364632514320803}
+  - {fileID: 3247364632514277067}
+  - {fileID: 3247364632514267299}
+  - {fileID: 3247364632514341353}
+  - {fileID: 3247364632514353043}
+  - {fileID: 3247364632514303517}
+  - {fileID: 3247364632514388587}
+  - {fileID: 3247364632514271071}
+  - {fileID: 3247364632514347173}
+  - {fileID: 3247364632514301375}
+  - {fileID: 3247364632514314005}
+  - {fileID: 3247364632514267317}
+  - {fileID: 3247364632514320091}
+  - {fileID: 3247364632514304477}
+  - {fileID: 3247364632514317731}
+  - {fileID: 3247364632514389415}
+  - {fileID: 3247364632514282291}
+  - {fileID: 3247364632514392125}
+  - {fileID: 3247364632514340307}
+  - {fileID: 3247364632514337785}
+  - {fileID: 3247364632514340293}
+  - {fileID: 3247364632514346011}
+  - {fileID: 3247364632514345549}
+  - {fileID: 3247364632514278471}
+  - {fileID: 3247364632514338399}
+  - {fileID: 3247364632514347953}
+  - {fileID: 3247364632514352039}
+  - {fileID: 3247364632514319451}
+  - {fileID: 3247364632514310581}
+  - {fileID: 3247364632514304271}
+  - {fileID: 3247364632514334441}
+  - {fileID: 3247364632514274065}
+  - {fileID: 3247364632514339449}
+  - {fileID: 3247364632514276205}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3247364632514362565}
+  m_AABB:
+    m_Center: {x: 0.08400021, y: 0.022319779, z: -0.0000021457672}
+    m_Extent: {x: 0.31194246, y: 0.24790697, z: 0.28858203}
+  m_DirtyAABB: 0
+--- !u!1 &3247364632514038963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514392125}
+  m_Layer: 0
+  m_Name: snowyowl_l_Clav_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514392125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514038963}
+  m_LocalRotation: {x: -0.59723747, y: -0.75459146, z: -0.18685079, w: 0.19744869}
+  m_LocalPosition: {x: -0.0018060684, y: 0.04738197, z: -0.07937992}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.99999976}
+  m_Children:
+  - {fileID: 3247364632514337785}
+  - {fileID: 3247364632514305399}
+  - {fileID: 3247364632514303473}
+  - {fileID: 3247364632514281845}
+  m_Father: {fileID: 3247364632514280259}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -66.818565, y: -12.036766, z: -77.30635}
+--- !u!1 &3247364632514039687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514320803}
+  m_Layer: 0
+  m_Name: snowyowl_r_Aula_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514320803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514039687}
+  m_LocalRotation: {x: 0.016796809, y: 0.0018587486, z: -0.9991143, w: 0.038537804}
+  m_LocalPosition: {x: 0.18914874, y: 0.000000095367426, z: 0.000000042915342}
+  m_LocalScale: {x: 0.9999998, y: 0.99999976, z: 1}
+  m_Children:
+  - {fileID: 3247364632514300461}
+  - {fileID: 3247364632514324893}
+  - {fileID: 3247364632514314909}
+  m_Father: {fileID: 3247364632514279303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.928779, y: 14.238671, z: -28.027092}
+--- !u!1 &3247364632514039823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514341353}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIII_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514341353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514039823}
+  m_LocalRotation: {x: -0.062254496, y: -0.060080122, z: -0.6918685, w: 0.7168213}
+  m_LocalPosition: {x: 0.030912794, y: -0.032436874, z: 0.013997879}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514353043}
+  m_Father: {fileID: 3247364632514267299}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -9.926555, y: 0.0005712419, z: 9.280205}
+--- !u!1 &3247364632514040185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514356983}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eye_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514356983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514040185}
+  m_LocalRotation: {x: -0.012035615, y: -0.28422713, z: -0.037461095, w: 0.9579492}
+  m_LocalPosition: {x: -0.052882746, y: 0.018057212, z: -0.05141574}
+  m_LocalScale: {x: 0.99999964, y: 0.9999995, z: 0.9999996}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -2.5421264, y: -32.968933, z: -3.7265015}
+--- !u!1 &3247364632514040523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514327369}
+  m_Layer: 0
+  m_Name: snowyowl_FeatherTail_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514327369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514040523}
+  m_LocalRotation: {x: 0.70708025, y: 0.0061421082, z: 0.006142139, w: 0.70707995}
+  m_LocalPosition: {x: -0.03942487, y: -0.008108053, z: 4.5474734e-15}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514354513}
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.00456, y: 90.00137, z: 90.00137}
+--- !u!1 &3247364632514040967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514349535}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_4-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514349535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514040967}
+  m_LocalRotation: {x: 0.00000008917408, y: 0.000000006130463, z: -5.4684436e-16,
+    w: 1}
+  m_LocalPosition: {x: 0.017422838, y: -0.000000009536743, z: -0.000000014305114}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514320091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000007684003, y: -0.00000085377314, z: 0.000003415083}
+--- !u!1 &3247364632514041581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514337785}
+  m_Layer: 0
+  m_Name: snowyowl_l_Humerus_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514337785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514041581}
+  m_LocalRotation: {x: 0.25873554, y: -0.23364915, z: -0.7462606, w: 0.5670619}
+  m_LocalPosition: {x: -0.059344318, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 3247364632514331671}
+  - {fileID: 3247364632514284619}
+  - {fileID: 3247364632514340293}
+  m_Father: {fileID: 3247364632514392125}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 20.819887, y: 14.477417, z: -13.4824295}
+--- !u!1 &3247364632514042717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514394829}
+  m_Layer: 0
+  m_Name: snowyowl_r_Humerus_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514394829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514042717}
+  m_LocalRotation: {x: 0.2587364, y: -0.23365097, z: -0.7462606, w: 0.56706077}
+  m_LocalPosition: {x: 0.059344303, y: -0.000000019073486, z: -0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 3247364632514276617}
+  - {fileID: 3247364632514270337}
+  - {fileID: 3247364632514279303}
+  m_Father: {fileID: 3247364632514280335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 20.819935, y: 14.477367, z: -13.482523}
+--- !u!1 &3247364632514042921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514282725}
+  - component: {fileID: 3247364632513048119}
+  - component: {fileID: 3247364632512069439}
+  m_Layer: 0
+  m_Name: snowyowl_l_Foot_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514282725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514042921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.059817523, y: 0.022879839, z: 0.088335104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514314437}
+  m_Father: {fileID: 3247364632514322215}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3247364632513048119
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514042921}
+  m_Mesh: {fileID: 4300024, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512069439
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514042921}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514044967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514322739}
+  m_Layer: 0
+  m_Name: snowyowl_r_Primary_1-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514322739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514044967}
+  m_LocalRotation: {x: 0.000000040978243, y: 6.0961914e-16, z: 0.000000014900962,
+    w: 1}
+  m_LocalPosition: {x: 0.21360588, y: -0.000000019073486, z: -0.000000028610229}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3247364632514324893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000005549508, y: 0.000001707536, z: -0.0000017075074}
+--- !u!1 &3247364632514045241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514314437}
+  m_Layer: 0
+  m_Name: snowyowl_l_Heel_hlp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514314437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514045241}
+  m_LocalRotation: {x: 0.70710665, y: 0.00052039843, z: 0.70710653, w: 0.0005203983}
+  m_LocalPosition: {x: 0.0000010871887, y: 0.063940234, z: -0.088335104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514305969}
+  m_Father: {fileID: 3247364632514282725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 179.91565}
+--- !u!1 &3247364632514045761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514333483}
+  m_Layer: 0
+  m_Name: snowyowl_COM_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514333483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514045761}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 9.315888e-11, y: -0.0021312374, z: 0.12895332}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514362565}
+  m_Father: {fileID: 3247364632514322215}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &3247364632514048821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514268345}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eyelidlower_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514268345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514048821}
+  m_LocalRotation: {x: -0.07175849, y: -0.27570644, z: 0.16553396, w: 0.9441585}
+  m_LocalPosition: {x: -0.051184587, y: 0.0013740158, z: -0.049472254}
+  m_LocalScale: {x: 0.9999997, y: 0.99999964, z: 0.9999996}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -2.5347366, y: -33.018597, z: 20.639936}
+--- !u!1 &3247364632514049677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514349369}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitI-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514349369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514049677}
+  m_LocalRotation: {x: 0.00000008768982, y: -0.00000027950736, z: 4.9379043e-14, w: 1}
+  m_LocalPosition: {x: 0.035721596, y: 0.000000005960464, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514347173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000011952827, y: -0.000029028279, z: -2.2797196e-11}
+--- !u!1 &3247364632514049843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514314005}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIV_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514314005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514049843}
+  m_LocalRotation: {x: 0.0000021466708, y: 0.000000160523, z: -0.000007633119, w: 1}
+  m_LocalPosition: {x: 0.018817019, y: -0.000000106096266, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514267317}
+  m_Father: {fileID: 3247364632514301375}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00024503333, y: 0.000018779296, z: -0.00086743385}
+--- !u!1 &3247364632514049999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514277067}
+  m_Layer: 0
+  m_Name: snowyowl_r_Tarso_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514277067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514049999}
+  m_LocalRotation: {x: 0.00002265009, y: 0.00005841243, z: -0.67415345, w: 0.7385913}
+  m_LocalPosition: {x: 0.072524086, y: -0.0000000667572, z: -0.0000000047683715}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 3247364632514304199}
+  - {fileID: 3247364632514267299}
+  m_Father: {fileID: 3247364632514311603}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0010090783, y: 0.00026466753, z: -120.30308}
+--- !u!1 &3247364632514050407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514276243}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitII_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514276243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514050407}
+  m_LocalRotation: {x: 2.9103833e-10, y: 0.000000010194389, z: -2.9669579e-18, w: 1}
+  m_LocalPosition: {x: 0.020196857, y: -0.0000000047683715, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514271071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000051226184, y: -0.0000017075131, z: -1.139852e-11}
+--- !u!1 &3247364632514050443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514307499}
+  m_Layer: 0
+  m_Name: snowyowl_l_Primary_1_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514307499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514050443}
+  m_LocalRotation: {x: 0.00000022858163, y: -0.0000015543536, z: -0.14448299, w: 0.9895073}
+  m_LocalPosition: {x: -0.31714866, y: 0.015413188, z: 0.0029017066}
+  m_LocalScale: {x: 0.9999997, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 3247364632514346011}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.0000027903468, y: -0.00017808769, z: -5.2963624}
+--- !u!1 &3247364632514050485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514323859}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIII_3-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514323859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514050485}
+  m_LocalRotation: {x: 0.000000029706136, y: -0.00000002592129, z: -0.00000033900142,
+    w: 1}
+  m_LocalPosition: {x: -0.021009821, y: -0.00000000834465, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514352039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000017075554, y: -0.0000040554237, z: -0.000040981125}
+--- !u!1 &3247364632514050745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514347173}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitI_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514347173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514050745}
+  m_LocalRotation: {x: 0.7061252, y: 0.6816426, z: -0.13314216, w: 0.13792694}
+  m_LocalPosition: {x: 0.030906962, y: 0.023914337, z: -0.01545206}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 3247364632514349369}
+  m_Father: {fileID: 3247364632514267299}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 22.104603, y: 179.99974, z: -170.72803}
+--- !u!1 &3247364632514050953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514331671}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514331671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514050953}
+  m_LocalRotation: {x: -0.0000014320879, y: -0.00000045829813, z: 0.049099617, w: 0.9987939}
+  m_LocalPosition: {x: -0.10500711, y: 0.06220987, z: 0.0029023981}
+  m_LocalScale: {x: 0.9999997, y: 0.99999976, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514393115}
+  m_Father: {fileID: 3247364632514337785}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.562201, y: -0.53773844, z: -85.63735}
+--- !u!1 &3247364632514051801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514319837}
+  m_Layer: 0
+  m_Name: snowyowl_r_FeatherTailTail_3_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514319837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514051801}
+  m_LocalRotation: {x: -0.10830704, y: -0.6987627, z: -0.6967769, w: 0.12042538}
+  m_LocalPosition: {x: -0.1810649, y: -0.004306402, z: 0.08618284}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -89.00495, y: -89.997986, z: -71.38568}
+--- !u!1 &3247364632514052543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514340293}
+  m_Layer: 0
+  m_Name: snowyowl_l_Ulna_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514340293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514052543}
+  m_LocalRotation: {x: -0.03656008, y: 0.02382593, z: 0.9910826, w: 0.12590091}
+  m_LocalPosition: {x: -0.18472476, y: 0.000000028610229, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999997, y: 0.9999996, z: 1}
+  m_Children:
+  - {fileID: 3247364632514346011}
+  - {fileID: 3247364632514358877}
+  - {fileID: 3247364632514276149}
+  m_Father: {fileID: 3247364632514337785}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -11.791614, y: 15.319646, z: 0.46629444}
+--- !u!1 &3247364632514055551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514275473}
+  m_Layer: 0
+  m_Name: target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514275473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514055551}
+  m_LocalRotation: {x: -0.009777943, y: 0.8882955, z: -0.018933075, w: -0.45877796}
+  m_LocalPosition: {x: -0.026389599, y: 0.242, z: 0.013584256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514296237}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 2.442, y: -125.369995, z: 0}
+--- !u!1 &3247364632514055565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514346431}
+  m_Layer: 0
+  m_Name: snowyowl_l_Eye-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514346431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514055565}
+  m_LocalRotation: {x: 0.000000002793918, y: 0.0000000048017452, z: -0.0000000018626203,
+    w: 1}
+  m_LocalPosition: {x: -0.024150686, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514282291}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000021343915, y: -0.0000015207542, z: 0.00000042688401}
+--- !u!1 &3247364632514056369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514277621}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_1-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514277621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514056369}
+  m_LocalRotation: {x: 0.000000009313025, y: -0.000000007450181, z: 0.000000029802118,
+    w: 1}
+  m_LocalPosition: {x: -0.18331082, y: -0.0000000023841857, z: -0.000000005960464}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514303473}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000017075297, y: 2.8623703e-12, z: 0.00000042688097}
+--- !u!1 &3247364632514056469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514338333}
+  m_Layer: 0
+  m_Name: snowyowl_Beak-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514338333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514056469}
+  m_LocalRotation: {x: 0.0000005523353, y: 0.000000043711378, z: -0.00000004470351,
+    w: 1}
+  m_LocalPosition: {x: -0.03857933, y: -0.000000019073486, z: 1.4551915e-13}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514330201}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00006329286, y: 0.000005008946, z: -0.0000055495193}
+--- !u!1 &3247364632514057209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514354513}
+  m_Layer: 0
+  m_Name: snowyowl_FeatherTail-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514354513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514057209}
+  m_LocalRotation: {x: -9.5503966e-20, y: -0.000000014901161, z: -4.2632144e-14, w: 1}
+  m_LocalPosition: {x: -0.1283301, y: 6.82121e-15, z: 0.000000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514327369}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.6284333e-12, y: 0.0000025613033, z: 2.0355359e-13}
+--- !u!1 &3247364632514057257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514285925}
+  m_Layer: 0
+  m_Name: snowyowl_l_Ulna_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514285925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514057257}
+  m_LocalRotation: {x: -0.036560107, y: 0.023826033, z: 0.9910826, w: 0.12590103}
+  m_LocalPosition: {x: -0.18472484, y: 0.000000028610229, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514301655}
+  m_Father: {fileID: 3247364632514305399}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -11.7916155, y: 15.319659, z: 0.46629903}
+--- !u!1 &3247364632514057653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514352489}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidlower-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514352489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514057653}
+  m_LocalRotation: {x: 0.000000007450671, y: 0.00000004935997, z: -0.000000059604446,
+    w: 1}
+  m_LocalPosition: {x: 0.024150686, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514284397}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000034150953, y: 0.000008431003, z: -0.000005122664}
+--- !u!1 &3247364632514058633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514269225}
+  - component: {fileID: 3247364632513072455}
+  - component: {fileID: 3247364632512045533}
+  m_Layer: 0
+  m_Name: snowyowl_r_Foot_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514269225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514058633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.059820045, y: 0.02283092, z: 0.08834029}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514357043}
+  m_Father: {fileID: 3247364632514322215}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3247364632513072455
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514058633}
+  m_Mesh: {fileID: 4300026, guid: 6ccb83d45ab3ec24799f94dc3d99f5d9, type: 3}
+--- !u!23 &3247364632512045533
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514058633}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bd743b39d2959ed409e90f20f491d275, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3247364632514058705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514393115}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_2-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514393115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514058705}
+  m_LocalRotation: {x: 0.0000000037252408, y: -0.0000000074505815, z: 2.3770841e-17,
+    w: 1}
+  m_LocalPosition: {x: -0.17718087, y: 0.000000028610229, z: 0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514331671}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000017075243, y: -0.000000853768, z: -0.0000017075015}
+--- !u!1 &3247364632514059329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514315127}
+  m_Layer: 0
+  m_Name: snowyowl_Tail-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514315127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514059329}
+  m_LocalRotation: {x: -0.00000015046224, y: 2.6212381e-15, z: 0.00000002980213, w: 1}
+  m_LocalPosition: {x: -0.06440924, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -0.000017241706, y: -3.5621774e-13, z: 0}
+--- !u!1 &3247364632514059783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514322209}
+  m_Layer: 0
+  m_Name: snowyowl_l_Aula-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514322209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514059783}
+  m_LocalRotation: {x: -0.000000018626258, y: -0.0000000074505784, z: -0.00000013411044,
+    w: 1}
+  m_LocalPosition: {x: -0.12101383, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514346011}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000008537686, y: -0.0000017075357, z: -0.000017075467}
+--- !u!1 &3247364632514060359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514284397}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidlower_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514284397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514060359}
+  m_LocalRotation: {x: -0.27491984, y: 0.07157686, z: -0.9443939, w: 0.16557787}
+  m_LocalPosition: {x: -0.019457845, y: 0.015459137, z: 0.029600259}
+  m_LocalScale: {x: 0.9999997, y: 0.9999996, z: 0.9999999}
+  m_Children:
+  - {fileID: 3247364632514352489}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 2.5305545, y: 32.922096, z: -159.3633}
+--- !u!1 &3247364632514060433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514298963}
+  m_Layer: 0
+  m_Name: snowyowl_r_Secondary_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514298963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514060433}
+  m_LocalRotation: {x: -0.12819439, y: -0.13092421, z: -0.6877733, w: 0.7024194}
+  m_LocalPosition: {x: 0.016918479, y: -0.05003061, z: -0.002902336}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514389139}
+  m_Father: {fileID: 3247364632514280335}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.000005959734, y: 0.000006113466, z: -98.85989}
+--- !u!1 &3247364632514060475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514301655}
+  m_Layer: 0
+  m_Name: snowyowl_l_Aula_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514301655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514060475}
+  m_LocalRotation: {x: 0.016796583, y: 0.0018583031, z: -0.9991143, w: 0.038537435}
+  m_LocalPosition: {x: -0.18914866, y: 0.000000114440915, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514285925}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.833181, y: 14.5379715, z: -27.643076}
+--- !u!1 &3247364632514061651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514332079}
+  m_Layer: 0
+  m_Name: Snowyowl_Jaw_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514332079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514061651}
+  m_LocalRotation: {x: 0.000007846835, y: -0.0000017699534, z: 0.24688515, w: 0.9690448}
+  m_LocalPosition: {x: -0.058758218, y: -0.07022667, z: -0.0000010681152}
+  m_LocalScale: {x: 0.9999995, y: 0.9999995, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.00092102465, y: 0.000024530029, z: 28.586527}
+--- !u!1 &3247364632514061659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514392585}
+  m_Layer: 0
+  m_Name: snowyowl_r_Femur_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514392585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514061659}
+  m_LocalRotation: {x: 0.00006189156, y: 0.0000369772, z: 0.18981339, w: 0.9818202}
+  m_LocalPosition: {x: -0.038595084, y: 0.0025612926, z: 0.059819993}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3247364632514311603}
+  m_Father: {fileID: 3247364632514362565}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.0022174926, y: 0.0015667309, z: 43.247673}
+--- !u!1 &3247364632514061683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514354475}
+  m_Layer: 0
+  m_Name: snowyowl_r_FeatherTailTail_3-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514354475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514061683}
+  m_LocalRotation: {x: 0.00000014156093, y: -5.273697e-16, z: -0.00000000372539, w: 1}
+  m_LocalPosition: {x: 0.12833011, y: 0.000000021457671, z: -0.000000019073486}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514302909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000015794812, y: -4.882892e-12, z: 0.0000029615205}
+--- !u!1 &3247364632514062289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514358173}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eyelidupper_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514358173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514062289}
+  m_LocalRotation: {x: 0.28029197, y: 0.04626706, z: 0.93022984, w: 0.23231077}
+  m_LocalPosition: {x: -0.019457845, y: 0.015459137, z: 0.029600259}
+  m_LocalScale: {x: 0.9999997, y: 0.99999964, z: 1}
+  m_Children:
+  - {fileID: 3247364632514330011}
+  m_Father: {fileID: 3247364632514299561}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 2.5305302, y: 32.922115, z: 152.70392}
+--- !u!1 &3247364632514062481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514353593}
+  m_Layer: 0
+  m_Name: snowyowl_r_Eye-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514353593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514062481}
+  m_LocalRotation: {x: 9.3131e-10, y: -0.000000002328299, z: -0.000000063329885, w: 1}
+  m_LocalPosition: {x: 0.024150753, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3247364632514281463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.8200714e-12, y: -0.000001080567, z: -0.0000064032984}
+--- !u!1 &3247364632514064219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514338399}
+  m_Layer: 0
+  m_Name: snowyowl_l_DigitIII_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514338399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514064219}
+  m_LocalRotation: {x: -0.062297087, y: -0.06012274, z: -0.6918561, w: 0.71682596}
+  m_LocalPosition: {x: -0.03091279, y: 0.032435812, z: -0.013994765}
+  m_LocalScale: {x: 0.9999996, y: 0.9999996, z: 1.0000001}
+  m_Children:
+  - {fileID: 3247364632514347953}
+  m_Father: {fileID: 3247364632514278471}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -9.933475, y: 0.00035190763, z: 9.281628}
+--- !u!1 &3247364632514064515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514353043}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitIII_2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514353043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514064515}
+  m_LocalRotation: {x: 0.0000019069714, y: 0.00000016271153, z: -0.0000073909773,
+    w: 1}
+  m_LocalPosition: {x: 0.015602388, y: -0.000000095367426, z: -0.000000009536743}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3247364632514303517}
+  m_Father: {fileID: 3247364632514341353}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00021429748, y: 0.000017072309, z: -0.0008469434}
+--- !u!1 &3247364632514064847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514303473}
+  m_Layer: 0
+  m_Name: snowyowl_l_Secondary_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514303473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514064847}
+  m_LocalRotation: {x: -0.12819506, y: -0.13092439, z: -0.68777305, w: 0.70241946}
+  m_LocalPosition: {x: -0.01691864, y: 0.050030746, z: 0.002902336}
+  m_LocalScale: {x: 1.0000004, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 3247364632514277621}
+  m_Father: {fileID: 3247364632514392125}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.00008347047, y: 0.00003547744, z: -98.85987}
+--- !u!1 &3247364632514065735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514300461}
+  m_Layer: 0
+  m_Name: snowyowl_r_Aula-nub_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514300461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514065735}
+  m_LocalRotation: {x: -4.9738845e-14, y: -9.947704e-14, z: 0.000000014901161, w: 1}
+  m_LocalPosition: {x: 0.12101383, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514320803}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000042686403, y: 1.141132e-11, z: -0.0000017075641}
+--- !u!1 &3247364632514067457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514278077}
+  m_Layer: 0
+  m_Name: snowyowl_l_FeatherTailTail_3_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514278077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514067457}
+  m_LocalRotation: {x: 0.6987632, y: -0.10830581, z: 0.12042654, w: 0.6967764}
+  m_LocalPosition: {x: -0.18106489, y: -0.0043063737, z: -0.086183965}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3247364632514351665}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 89.00475, y: 90.00068, z: 108.616936}
+--- !u!1 &3247364632514094501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514388587}
+  m_Layer: 0
+  m_Name: snowyowl_r_DigitII_1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514388587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514094501}
+  m_LocalRotation: {x: 0.14718573, y: 0.14209767, z: -0.6797855, w: 0.70429844}
+  m_LocalPosition: {x: 0.030910775, y: -0.032436844, z: -0.015452122}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 3247364632514271071}
+  m_Father: {fileID: 3247364632514267299}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 23.610485, y: 0.0030212733, z: 9.280512}
+--- !u!1 &3247364632514094891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3247364632514299561}
+  m_Layer: 0
+  m_Name: snowyowl_Head_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3247364632514299561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3247364632514094891}
+  m_LocalRotation: {x: -0.0000035203527, y: -0.0000008462215, z: 0.3803014, w: 0.9248626}
+  m_LocalPosition: {x: -0.03971924, y: 0.0000012397766, z: 2.910383e-13}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3247364632514330201}
+  - {fileID: 3247364632514330019}
+  - {fileID: 3247364632514324745}
+  - {fileID: 3247364632514270931}
+  - {fileID: 3247364632514332079}
+  - {fileID: 3247364632514282291}
+  - {fileID: 3247364632514356983}
+  - {fileID: 3247364632514389415}
+  - {fileID: 3247364632514268345}
+  - {fileID: 3247364632514304477}
+  - {fileID: 3247364632514302001}
+  - {fileID: 3247364632514317687}
+  - {fileID: 3247364632514281463}
+  - {fileID: 3247364632514362871}
+  - {fileID: 3247364632514284397}
+  - {fileID: 3247364632514351245}
+  - {fileID: 3247364632514358173}
+  - {fileID: 3247364632514324249}
+  m_Father: {fileID: 3247364632514348553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00047014916, y: -0.00003610447, z: 7.097426}
+--- !u!1001 &553226311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 380041123}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_Name
+      value: Papillon
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.089
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6351839
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.31071717
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6351788
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3107158
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.61801
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.59412
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.910598
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: d9046795645746940b7ce3043a67f84c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b111d43a1bfe3a4ab1f19e2647c5ddd, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9046795645746940b7ce3043a67f84c, type: 3}
+--- !u!4 &5006512735339428701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d9046795645746940b7ce3043a67f84c,
+    type: 3}
+  m_PrefabInstance: {fileID: 553226311}
+  m_PrefabAsset: {fileID: 0}

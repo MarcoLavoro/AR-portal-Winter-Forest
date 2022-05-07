@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 46c507fc89247994dbad9d1f0493d24a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Albedo: {fileID: 2800000, guid: 02f8fda8a5c64924c8704a0256338747, type: 3}
+  - _HalfTonePattern: {fileID: 2800000, guid: d9f90be9214f2d442979008280c8eca8, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
